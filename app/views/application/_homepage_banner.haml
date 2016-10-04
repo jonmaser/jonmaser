@@ -1,14 +1,25 @@
-.banner
-
-	.banner-image{style: "background: url('#{asset_path("background/geometrycolors.png")}') center center no-repeat"}
-
-		#banner-content
-			.banner-header
-				I'm
-			.banner-small-header
-				Jon Maser
-			.banner-description
-				and I like to build companies
-			%a{:href => "/projects"}
-				.banner-btn
-					Explore Projects
+.container
+	.header
+		.clr
+	.sp-container
+		.sp-content
+			.sp-globe
+			%h2.frame-1
+				%span Hey!
+				%span I'm Jon.
+			%h2.frame-2 and I love to create brands
+			%h2.frame-3 travel, connect, inspire,
+			%h2.frame-4 and I'm seeking the next big thing.
+			%h2.frame-5
+				%span Let's 
+				%span build
+				%span something amazing.
+			%a.sp-circle-link{:href => "#"} Woo!
+%script{:src => "/path/to/shared/js/EventHelpers.js", :type => "text/javascript"}
+	:cdata
+%script{:src => "/path/to/shared/js/cssQuery-p.js", :type => "text/javascript"}
+	:cdata
+%script{:src => "/path/to/shared/js/jcoglan.com/sylvester.js", :type => "text/javascript"}
+	:cdata
+%script{:src => "/path/to/shared/js/cssSandpaper.js", :type => "text/javascript"}
+	:cdata
