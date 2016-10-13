@@ -1,20 +1,18 @@
-.container
-	.header
-		.clr
-	.sp-container{style: "background: url('#{asset_path("background/bluetriangles.png")}') center center no-repeat"}
-		.sp-content
-			.sp-globe
-			%h2.frame-1
-				%span Hey!
-				%span I'm Jon.
-			%h2.frame-2 and I love to create brands
-			%h2.frame-3 travel, connect, inspire,
-			%h2.frame-4 and I'm seeking the next big thing.
-			%h2.frame-5
-				%span Let's 
-				%span build
-				%span something amazing.
-			%a.sp-circle-link{:href => "#"} Woo!
+.banner-container{style: "background: url('#{asset_path("background/lakemountain.jpeg")}') center center no-repeat"}
+	.banner-content
+		.banner-globe
+		%h2.frame-1
+			%span Hey,
+			%span I'm Jon.
+		%h2.frame-2 I build, design and launch brands
+		%h2.frame-3 to connect, inspire and engage
+		%h2.frame-4 I'm now seeking the next big thing.
+		%h2.frame-5
+			%span Let's 
+			%span build
+			%span something amazing.
+		%a.banner-circle-link
+			.fa.fa-angle-double-down{style: "font-size: 3em;"}
 %script{:src => "/path/to/shared/js/EventHelpers.js", :type => "text/javascript"}
 	:cdata
 %script{:src => "/path/to/shared/js/cssQuery-p.js", :type => "text/javascript"}
@@ -23,3 +21,11 @@
 	:cdata
 %script{:src => "/path/to/shared/js/cssSandpaper.js", :type => "text/javascript"}
 	:cdata
+
+:javascript
+
+	$('.banner-circle-link').click(function(){
+		$('html, body').animate({
+			scrollTop: $("#homepage_content").offset().top + 5}, 800
+		)
+	})

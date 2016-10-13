@@ -1,10 +1,33 @@
 !!!
 %html
-	%head
-		%meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-		%title Jonmaser
-		= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
-		= javascript_include_tag 'application', 'data-turbolinks-track' => true
-		= csrf_meta_tags
-	%body
-		= yield
+  %head
+    - if content_for?(:meta_og)
+      = yield :meta_og
+    - else
+      %meta{:content => "Jon Maser | Finding Adventure", :property => "og:title"}/
+      %meta{:content => "Jon Maser", :property => "og:site_name"}/
+      %meta{:content => "", :property => "og:description"}/
+      %meta{:content => "website", :property => "og:type"}/
+      %meta{:content => "http://www.jonmaser.com/", :property => "og:url"}/
+      %meta{:content => "http://i.imgur.com/hShb0MO.png", :property => "og:image"}/
+      %meta{:content => "1326", :property => "og:image:width"}/
+      %meta{:content => "700", :property => "og:image:height"}/
+
+    %title Jon Maser | Finding Adventure
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+    / Prelang: Analytics / Google Analytics
+    = analytics_init if Rails.env.production? or Rails.env.development?
+    = favicon_link_tag 'jonmaser_favicon.ico'
+    = csrf_meta_tags
+
+
+  %body
+    = render partial: "elements/navbar"
+    = render partial: "elements/mobile_navbar"
+    = bootstrap_flash
+
+    = yield
+
+  %footer

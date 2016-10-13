@@ -1,0 +1,22 @@
+%nav.Offscreen.Nav-List
+  %a.Button
+    %i.Menu-Bar.Menu-Top
+    %i.Menu-Bar.Menu-Middle
+    %i.Menu-Bar.Menu-Bottom
+  %a{href: "/"}
+    #mobile-nav-brand{href: "/"}
+  %ul
+    %li
+      %a{:href => "#"} About Me
+    %li
+      %a{:href => "#"} Brands
+    %li
+      %a{:href => "#"} Places
+    %li
+      %a{:href => "#"} Connect
+
+:javascript
+
+  $(".Button").on("click",function(e){
+    $(this).parent().toggleClass("is-Open");
+  });

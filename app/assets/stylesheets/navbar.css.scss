@@ -1,0 +1,267 @@
+#header {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 56px;
+	font-family: proxima_bold;
+	background: transparent;
+	padding: 12px 0 4px 14px;
+	z-index: 1005;
+	position: fixed;
+	border: none;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	background: rgb(33,35,38);
+
+	.navbar-brand {
+		background: asset-url("logos/JMlogowhitesmall.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 58px !important;
+		height: 60px;
+		margin-top: -12px;
+		margin-bottom: -8px;
+		margin-left: -30px !important;
+		-webkit-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+		box-shadow: 1px 1px 2px #000;
+		background-color: #212326;
+
+		&:hover{
+			box-shadow: 1px 1px 2px #000;
+			background-color: rgba(255,255,255,0.8);
+		}
+	}
+
+	.header-button{
+		margin-right: 20px;
+
+		button.btn-default {
+			border: none;
+			background-color: transparent;
+		}
+
+		&.bordered.btn-default {
+			padding-top: 4px;
+			padding-bottom: 4px;
+			margin-top: 10px;
+		}
+	}
+
+	.btn.btn-default {
+		color: #fff;
+		border: none;
+		border-radius: 0px;
+		background-color: transparent;
+		font-family: proxima_regular;
+		font-size: 14px;
+		margin-left: 0px;
+		border-bottom: 4px solid transparent;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		margin-right: 20px;
+		margin-left: 20px;
+		text-transform: lowercase;
+		letter-spacing: 1px;
+
+		-webkit-transition: .3s ease-in-out;
+		-moz-transition: .3s ease-in-out;
+		-o-transition: .3s ease-in-out;
+
+		&:hover{
+			color: rgba(255,255,255,0.5);
+		}
+	}
+
+	.consult-signup{
+		background: #aa4b41 !important;
+		padding: 8px !important;
+		color: #fff !important;
+		margin-top: -5px;
+		border-radius: 8px !important;
+	}
+
+	.header-barrier{
+		color: #fff;
+		font-family: proxima_thin;
+		font-size: 2em;
+	}
+
+	.trip-dropdown{
+		font-family: proxima_regular;
+		background: transparent !important;
+		color: #212326 !important;
+		font-size: 16px;
+		margin-top: -8px;
+		margin-right: 35px;
+		margin-left: 20px;
+		padding-bottom: 0px;
+		padding-right: 0px;
+		padding-left: 0px;
+		border-bottom: 4px solid transparent;
+
+		-webkit-transition: .3s ease-in-out;
+		-moz-transition: .3s ease-in-out;
+		-o-transition: .3s ease-in-out;
+
+		&:hover{
+			border-bottom: 4px solid #aa4b41;
+		}
+	}
+
+	.trip-dropdown-content{
+		background: #37393b;
+		min-width: 178px;
+		margin-right: 35px;
+		border: none;
+		min-width: 360px;
+		margin-top: 13px;
+
+		-webkit-transition: .3s ease-in-out;
+		-moz-transition: .3s ease-in-out;
+		-o-transition: .3s ease-in-out;
+
+		.trip-dropdown-title{
+			color: #fff;
+			text-align: center;
+			padding-top: 10px;
+			font-size: 1.1em;
+
+			&:hover{
+				font-size: 1.3em;
+				background: rgba(255,255,255,0.1);
+			}
+		}
+	}
+
+	.mobile-navbar-navigation{
+		background: transparent;
+		margin-top: 5px;
+		-webkit-transition: .2s ease-in-out;
+		-moz-transition: .2s ease-in-out;
+		-o-transition: .2s ease-in-out;
+		border: none;
+
+		&:hover{
+			background: transparent;
+		}
+
+		.icon-bar{
+			background-color: #fff;
+		}
+	}
+
+	.mobile-navbar-menu{
+	}
+
+	small.help-block {
+		text-align: center;
+	}
+
+	.login_in_sign_up_btn {
+		border: 2px solid #fff;
+		background-color: transparent;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		margin-top: 10px;
+
+		&:hover{
+			border: 2px solid #aa4b41;
+		}
+	}
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border: none;
+}
+
+.navbar-collapse{
+	box-shadow: none !important;
+}
+
+@media screen and (max-width: 992px){
+	#header{
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 767px){
+	#header .navbar-brand{
+		margin-top: -6px;
+		margin-left: 5px !important;
+		margin-bottom: 0px;
+		width: 44px !important;
+		height: 48px;
+		background-color: transparent !important;
+		box-shadow: none;
+
+		&:hover{
+			height: 48px;
+			box-shadow: none;
+			background-color: transparent;
+			width: 44px !important;
+		}
+	}
+
+	#header .mobile-navbar-navigation{
+		margin-top: 0px;
+	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		background: #fff;
+		box-shadow: 0px 9px 9px #222 !important;
+	}
+
+	#header{
+		padding: 12px 0 0px 0px;
+	}
+
+	#header .btn.btn-default{
+		width: 100%;
+		background: transparent;
+		font-size: 16px;
+		color: #212326;
+		border: none !important;
+		text-shadow: none;
+
+		&:hover{
+			background: transparent;
+			color: rgba(33,35,38,0.8);
+		}
+	}
+
+	#header .open .dropdown-menu{
+		margin: auto !important;
+		padding-top: 20px;
+
+		-webkit-transition: .3s ease-in-out;
+		-moz-transition: .3s ease-in-out;
+		-o-transition: .3s ease-in-out;
+	}
+
+	#header .trip-dropdown{
+		font-size: 14px;
+		color: #212326 !important;
+		text-align: center;
+		text-shadow: none;
+		margin: auto !important;
+		border: none !important;
+
+		&:hover{
+			color: rgba(33,35,38,0.8);
+		}
+	}
+}
+
+@media screen and (max-width: 500px){
+
+	#header .trip-dropdown-content{
+		min-width: 0px;
+	}
+
+	#header .btn.btn-default{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+}
