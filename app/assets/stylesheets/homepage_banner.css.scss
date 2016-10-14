@@ -85,16 +85,16 @@
 	text-shadow: 0px 0px 1px #fff;
 }
 .banner-container h2.frame-5 span:nth-child(2) {
+	-webkit-animation-delay: 12.5s;
+	-moz-animation-delay: 12.5s;
+	-ms-animation-delay: 12.5s;
+	animation-delay: 12.5s;
+}
+.banner-container h2.frame-5 span:nth-child(3) {
 	-webkit-animation-delay: 13s;
 	-moz-animation-delay: 13s;
 	-ms-animation-delay: 13s;
 	animation-delay: 13s;
-}
-.banner-container h2.frame-5 span:nth-child(3) {
-	-webkit-animation-delay: 14s;
-	-moz-animation-delay: 14s;
-	-ms-animation-delay: 14s;
-	animation-delay: 14s;
 	font-size: 100px;
 	font-family: proxima_black !important;
 }

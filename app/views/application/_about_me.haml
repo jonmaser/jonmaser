@@ -1,0 +1,121 @@
+#about_me
+
+	.col-md-12.about-me-details
+
+		.about-me-mission
+			.about-me-header
+				My mission is to always seek adventure.
+			.about-me-mission-text
+				Whether through launching adventure travel companies, riding across countries on a motorcycle or circumnaviating the world on a ship, I always looking to experience unfamiliar
+				%b{style: "font-family: proxima_black; color: #438496; letter-spacing: 0.5px;"} people, places and experiences.
+				Travel has not only exposed the beauty and excitement in life but also, how unaware many are about one another. Because of that, I’ve dedicated my life helping others experience our world in a meaningful and positive way.
+
+			.col-md-10.col-md-offset-1.icon-categories
+				.col-md-4.icon-category-container
+					.icon-category-header
+						Design Thinking & Business Strategy
+					.icon-category{style: "background: url('#{asset_path("icons/lightbulb.png")}') center center no-repeat"}
+				.col-md-4.icon-category-container
+					.icon-category-header
+						Development & Experience
+					.icon-category{style: "background: url('#{asset_path("icons/dev.png")}') center center no-repeat"}
+				.col-md-4.icon-category-container
+					.icon-category-header
+						Traveling & Empathy
+					.icon-category{style: "background: url('#{asset_path("icons/hotair.png")}') center center no-repeat"}
+
+		.partners-grid
+			.partners-grid-image-container
+				.partners-grid-image{style: "background: url('#{asset_path("background/adventureconsultingred.jpeg")}') right bottom no-repeat"}
+
+					.partners-grid-text{style: "background: rgba(67,132,150,0.9);"}
+						.partners-grid-header
+							Good stories make for great business.
+						.partners-grid-subheader
+							Brand Strategy
+						.partners-grid-underline-container
+							.partners-grid-underline
+						.partners-grid-description
+							You might have the most badass, personable team of guides in the world, but unless you make a good first impression, travelers will never find out. We'll work with you to tell the story that reflects who you really are and the type of experiences you provide. A compelling brand leads to easier sales.
+
+		.partners-grid
+			.partners-grid-image-container
+				.partners-grid-image{style: "background: url('#{asset_path("background/bluetriangles.png")}') left center no-repeat"}
+
+					.partners-grid-text{style: "float: right; background: rgba(170, 75, 65, 0.9)"}
+						.partners-grid-header
+							Potential sales you might not even know about.
+						.partners-grid-subheader
+							Development & Design
+						.partners-grid-underline-container
+							.partners-grid-underline
+						.partners-grid-description
+							Call us crazy, but we believe planning and booking a trip should be fun. We design websites with the traveler in mind, focusing on clarity and simplicity, making sure your hard-earned traffic converts. Keeping it simple is the name of the game. It's 2016 and you don't need a webmaster to run your site. We'll get you set up and show you how to be the boss of your new site.
+
+		.partners-grid
+			.partners-grid-image-container
+				.partners-grid-image{style: "background: url('#{asset_path("background/geometrycolors.png")}') right center no-repeat"}
+
+					.partners-grid-text{style: "background: rgba(50,140,193,0.9);"}
+						.partners-grid-header
+							Finding ways to be heard in a crowded digital world.
+						.partners-grid-subheader
+							Digital Marketing
+						.partners-grid-underline-container
+							.partners-grid-underline
+						.partners-grid-description
+							Marketing can suck your time, energy, and money if you let it. We'll work with you to take control of your marketing plan, implementing strategies that provide return. We'll help you target the right people with the right message at the right time. Social media, PPC, SEO, content, PR, influencer campaigns, affiliate programs. We can do it all.
+		.partners-grid
+			.partners-grid-image-container
+				.partners-grid-image{style: "background: url('#{asset_path("background/CamCliffPicNoLogo.jpeg")}') right bottom no-repeat"}
+
+					.partners-grid-text{style: "float: right; background: rgba(179,125,78,0.9);;"}
+						.partners-grid-header
+							Teaming up to put together a trip.
+						.partners-grid-subheader
+							Experience Design
+						.partners-grid-underline-container
+							.partners-grid-underline
+						.partners-grid-description
+							We’ll work alongside you to create a compelling itinerary, show you how to list it on your site, and work together to market and sell the trip. By running through the process of creating and selling a trip, you’ll see exactly how powerful your new brand can be. It’s tech support meets experiencial learning we can both enjoy. Trips that fit our personal brand will also be marketed and promoted through MadebyAdventure’s main page and our partner channels.
+
+	.col-md-12.partner-signup
+		.partner-signup-title
+			Start the conversation
+		%a{:href => "mailto:jonmaser@gmail.com?Subject=Hello%20Jon", :target => "_top"}
+			.partner-signup-btn
+				Let's Talk.
+
+:javascript
+	$(document).ready(function() {
+	$('#about_me').show();
+	$('#about_me').animate({ opacity: 1, top: "-60px" }, 'slow');
+	});
+
+	$(document).ready(function() {
+	
+		$('body *').each( function(){
+	   
+			var top_of_object = $(this).position().top;
+			var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+			if( bottom_of_window < top_of_object  ){
+	  
+				$(this).addClass('hideme').css({'opacity':'0'});  
+			} 
+		});
+	
+		$(window).scroll( function(){
+	  
+			$('.hideme').each( function(i){
+		
+				var bottom_of_window = $(window).scrollTop() + $(window).height();
+				var top_of_object = $(this).position().top;
+		
+					if( bottom_of_window > ( top_of_object + 100 )  ){
+		  
+						$(this).removeClass('hideme').animate({'opacity':'1'},800); 
+					}
+			}); 
+		});
+	});;

@@ -1,54 +1,338 @@
-/* line 1, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-body {
+/* line 1, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me {
   background: #fff;
-  font-family: proxima_thin;
+}
+/* line 4, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 8, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .about-me-mission {
+  padding-bottom: 96px;
+  background: #212326;
+  min-height: 550px;
+}
+/* line 13, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .about-me-mission .about-me-header {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 12px;
+  font-family: proxima_bold;
+  font-size: 3.2em;
+  text-align: left;
+  color: #fff;
+  letter-spacing: -2px;
+  padding-top: 72px;
+}
+/* line 25, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .about-me-mission .about-me-mission-text {
+  font-family: proxima_regular;
+  font-size: 1.4em;
+  text-align: left;
+  color: #fff;
+  max-width: 800px;
+  margin: auto;
+  letter-spacing: -0.5px;
+}
+/* line 35, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .about-me-mission .icon-categories {
+  padding-top: 72px;
+}
+/* line 38, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .about-me-mission .icon-categories .icon-category-container {
+  border-radius: 50%;
+  background: #212326;
+  padding: 18px;
+}
+/* line 43, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .about-me-mission .icon-categories .icon-category-container .icon-category-header {
+  font-family: proxima_bold;
+  font-size: 2.4em;
+  text-align: center;
+  color: #fff;
+  height: 80px;
+  margin-bottom: 24px;
+}
+/* line 52, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .about-me-mission .icon-categories .icon-category-container .icon-category {
+  height: 128px;
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  transition: -webkit-filter 600ms ease;
+  transition: filter 600ms ease;
+  transition: filter 600ms ease, -webkit-filter 600ms ease;
+  -webkit-transition: -webkit-filter 600ms ease;
+}
+/* line 59, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .about-me-mission .icon-categories .icon-category-container .icon-category:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+/* line 70, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .partners-grid .partners-grid-image-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 74, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .partners-grid .partners-grid-image-container .partners-grid-image {
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  height: 800px;
+}
+/* line 79, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text {
+  padding: 36px;
+  background: #fff;
+  width: 50%;
+  padding-top: 180px;
+  height: 100%;
+}
+/* line 86, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text .partners-grid-header {
+  font-family: proxima_bold;
+  font-size: 3em;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #fff;
+  max-width: 500px;
+  margin: auto;
+  line-height: 40px;
+}
+/* line 97, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text .partners-grid-subheader {
+  font-family: proxima_regular;
+  font-size: 1.6em;
+  text-align: left;
+  color: #fff;
+  max-width: 500px;
+  margin: auto;
+  letter-spacing: -0.5px;
+  padding-top: 12px;
+}
+/* line 108, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text .partners-grid-underline-container {
+  max-width: 500px;
+  padding-top: 24px;
+  margin: auto;
+}
+/* line 113, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text .partners-grid-underline-container .partners-grid-underline {
+  border-bottom: 4px solid #fff;
+  max-width: 60px;
+}
+/* line 119, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .about-me-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text .partners-grid-description {
+  font-family: proxima_regular;
+  font-size: 1.4em;
+  text-align: left;
+  color: #fff;
+  max-width: 500px;
+  margin: auto;
+  padding-top: 32px;
+  letter-spacing: -0.5px;
+}
+/* line 135, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .partner-signup {
+  background: #212326;
+  height: 450px;
+  padding-top: 120px;
+}
+/* line 140, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .partner-signup .partner-signup-title {
+  font-family: proxima_bold;
+  font-size: 4em;
+  text-align: center;
+  color: #fff;
+  max-width: 900px;
+  margin: auto;
+  letter-spacing: -1px;
+}
+/* line 150, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .partner-signup .partner-signup-btn {
+  max-width: 190px;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  height: 50px;
+  font-family: proxima_bold;
+  font-size: 1.2em;
+  margin-top: 12px;
+  padding-top: 10px;
+  border: 4px solid #fff;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+}
+/* line 166, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+#about_me .partner-signup .partner-signup-btn:hover {
+  box-shadow: 0px 0px 0px #000;
 }
 
-/* line 6, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.container {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
+@media screen and (max-width: 991px) {
+  /* line 175, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text {
+    width: 100%;
+  }
 
-/* line 12, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-a {
-  text-decoration: none;
-}
+  /* line 179, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-mission .partners-mission-text {
+    font-size: 1.6em;
+    max-width: 700px;
+  }
 
-/* line 16, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-h1.main, p.demos {
+  /* line 184, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partner-signup .partner-signup-title {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 771px) {
+  /* line 191, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-banner .partners-title {
+    font-size: 2.2em;
+    line-height: 48px;
+  }
+
+  /* line 196, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-banner .partners-subtitle {
+    font-size: 1.4em;
+    padding-bottom: 16px;
+  }
+
+  /* line 201, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-mission .partners-mission-text {
+    font-size: 1.4em;
+    max-width: 500px;
+    letter-spacing: -0.5px;
+  }
+
+  /* line 207, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-grid .partners-grid-image-container .partners-grid-image {
+    height: 500px;
+  }
+
+  /* line 211, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text {
+    padding-top: 120px;
+  }
+
+  /* line 215, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text .partners-grid-header {
+    font-size: 2.4em;
+  }
+
+  /* line 219, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text .partners-grid-subheader {
+    font-size: 1.4em;
+  }
+
+  /* line 223, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text .partners-grid-description {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 230, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-banner {
+    height: 500px;
+    padding-top: 120px;
+  }
+
+  /* line 235, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-banner .partners-title {
+    font-size: 2.2em;
+    max-width: 300px;
+    line-height: 36px;
+    padding-bottom: 16px;
+  }
+
+  /* line 242, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-banner .partners-subtitle {
+    display: none;
+  }
+
+  /* line 246, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-mission .partners-mission-text {
+    font-size: 1.2em;
+    max-width: 95%;
+  }
+
+  /* line 251, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text {
+    padding-top: 72px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  /* line 257, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text .partners-grid-header {
+    font-size: 2em;
+    line-height: 32px;
+    padding-bottom: 4px;
+  }
+
+  /* line 263, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text .partners-grid-subheader {
+    font-size: 1.2em;
+  }
+
+  /* line 267, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text .partners-grid-underline-container {
+    padding-top: 12px;
+  }
+
+  /* line 271, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partners-details .partners-grid .partners-grid-image-container .partners-grid-image .partners-grid-text .partners-grid-description {
+    font-size: 1em;
+    padding-top: 12px;
+  }
+
+  /* line 276, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partner-signup {
+    padding-top: 130px;
+  }
+
+  /* line 280, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .partner-signup .partner-signup-title {
+    font-size: 2.4em;
+  }
+}
+/* line 1, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+4h1.main,p.demos {
   -webkit-animation-delay: 18s;
   animation-delay: 18s;
 }
 
-/* line 22, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-container {
-  position: fixed;
+/* line 7, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-container {
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 100%;
+  height: 800px;
   z-index: 0;
-  background: -webkit-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
-  background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+  position: relative;
+  background-attachment: fixed !important;
 }
 
-/* line 34, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-content {
-  font-family: proxima_thin;
+/* line 16, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-content {
+  font-family: proxima_bold;
+  letter-spacing: -1px;
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0px;
   top: 0px;
   z-index: 1000;
+  background: -webkit-radial-gradient(rgba(41, 128, 185, 0.5) 50%, #2980b9);
+  background: -webkit-radial-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.75) 50%, #2980b9);
+  background: radial-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.75) 50%, #2980b9);
 }
 
-/* line 43, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-container h2 {
+/* line 30, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-container h2 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   line-height: 100px;
   height: 90px;
   margin-top: -50px;
@@ -60,64 +344,64 @@ h1.main, p.demos {
   animation: blurFadeInOut 3s ease-in backwards;
 }
 
-/* line 58, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-container h2.frame-1 {
+/* line 45, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-container h2.frame-1 {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
 
-/* line 64, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-container h2.frame-2 {
+/* line 51, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-container h2.frame-2 {
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
 }
 
-/* line 70, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-container h2.frame-3 {
+/* line 57, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-container h2.frame-3 {
   -webkit-animation-delay: 6s;
   animation-delay: 6s;
 }
 
-/* line 76, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-container h2.frame-4 {
+/* line 63, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-container h2.frame-4 {
   font-size: 60px;
   line-height: 100px;
   -webkit-animation-delay: 9s;
   animation-delay: 9s;
 }
 
-/* line 84, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-container h2.frame-5 {
+/* line 71, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-container h2.frame-5 {
   -webkit-animation: none;
   animation: none;
   color: transparent;
   text-shadow: 0px 0px 1px #fff;
 }
 
-/* line 92, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-container h2.frame-5 span {
+/* line 79, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-container h2.frame-5 span {
   -webkit-animation: blurFadeIn 3s ease-in 12s backwards;
   animation: blurFadeIn 3s ease-in 12s backwards;
   color: transparent;
   text-shadow: 0px 0px 1px #fff;
 }
 
-/* line 100, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-container h2.frame-5 span:nth-child(2) {
-  -webkit-animation-delay: 13s;
-  animation-delay: 13s;
+/* line 87, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-container h2.frame-5 span:nth-child(2) {
+  -webkit-animation-delay: 12.5s;
+  animation-delay: 12.5s;
 }
 
-/* line 106, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-container h2.frame-5 span:nth-child(3) {
-  -webkit-animation-delay: 14s;
-  animation-delay: 14s;
+/* line 93, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-container h2.frame-5 span:nth-child(3) {
+  -webkit-animation-delay: 13s;
+  animation-delay: 13s;
   font-size: 100px;
   font-family: proxima_black !important;
 }
 
-/* line 114, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-globe {
+/* line 101, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-globe {
   position: absolute;
   width: 282px;
   height: 273px;
@@ -134,19 +418,18 @@ h1.main, p.demos {
   transform: scale(5);
 }
 
-/* line 135, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-circle-link {
+/* line 122, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-circle-link {
   position: absolute;
   font-family: proxima_bold;
   left: 50%;
-  bottom: 100px;
+  bottom: 140px;
   margin-left: -50px;
   text-align: center;
   line-height: 100px;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background: transparent;
-  border: 2px solid #fff;
   color: #fff;
   font-size: 25px;
   border-radius: 50%;
@@ -154,31 +437,33 @@ h1.main, p.demos {
   animation: fadeInRotate 1s linear 16s backwards;
   -webkit-transform: scale(1) rotate(0deg);
   transform: scale(1) rotate(0deg);
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
 }
 
-/* line 162, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
-.sp-circle-link:hover {
-  background: #85373b;
-  color: #fff;
+/* line 151, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+.banner-circle-link:hover {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /**/
 @-webkit-keyframes blurFadeInOut {
-  /* line 168, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 157, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   0% {
     opacity: 0;
     text-shadow: 0px 0px 40px #fff;
     -webkit-transform: scale(1.3);
   }
 
-  /* line 173, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 162, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   20%,75% {
     opacity: 1;
     text-shadow: 0px 0px 1px #fff;
     -webkit-transform: scale(1);
   }
 
-  /* line 178, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 167, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   100% {
     opacity: 0;
     text-shadow: 0px 0px 50px #fff;
@@ -187,21 +472,21 @@ h1.main, p.demos {
 }
 
 @-webkit-keyframes blurFadeIn {
-  /* line 185, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 174, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   0% {
     opacity: 0;
     text-shadow: 0px 0px 40px #fff;
     -webkit-transform: scale(1.3);
   }
 
-  /* line 190, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 179, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   50% {
     opacity: 0.5;
     text-shadow: 0px 0px 10px #fff;
     -webkit-transform: scale(1.1);
   }
 
-  /* line 195, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 184, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   100% {
     opacity: 1;
     text-shadow: 0px 0px 1px #fff;
@@ -210,19 +495,19 @@ h1.main, p.demos {
 }
 
 @-webkit-keyframes fadeInBack {
-  /* line 202, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 191, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   0% {
     opacity: 0;
     -webkit-transform: scale(0);
   }
 
-  /* line 206, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 195, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   50% {
     opacity: 0.4;
     -webkit-transform: scale(2);
   }
 
-  /* line 210, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 199, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   100% {
     opacity: 0.2;
     -webkit-transform: scale(5);
@@ -230,13 +515,13 @@ h1.main, p.demos {
 }
 
 @-webkit-keyframes fadeInRotate {
-  /* line 216, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 205, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   0% {
     opacity: 0;
     -webkit-transform: scale(0) rotate(360deg);
   }
 
-  /* line 220, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 209, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   100% {
     opacity: 1;
     -webkit-transform: scale(1) rotate(0deg);
@@ -247,7 +532,7 @@ h1.main, p.demos {
 
 /**/
 @keyframes blurFadeInOut {
-  /* line 281, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 270, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   0% {
     opacity: 0;
     text-shadow: 0px 0px 40px #fff;
@@ -255,7 +540,7 @@ h1.main, p.demos {
             transform: scale(1.3);
   }
 
-  /* line 286, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 275, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   20%,75% {
     opacity: 1;
     text-shadow: 0px 0px 1px #fff;
@@ -263,7 +548,7 @@ h1.main, p.demos {
             transform: scale(1);
   }
 
-  /* line 291, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 280, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   100% {
     opacity: 0;
     text-shadow: 0px 0px 50px #fff;
@@ -273,7 +558,7 @@ h1.main, p.demos {
 }
 
 @keyframes blurFadeIn {
-  /* line 298, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 287, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   0% {
     opacity: 0;
     text-shadow: 0px 0px 40px #fff;
@@ -281,7 +566,7 @@ h1.main, p.demos {
             transform: scale(1.3);
   }
 
-  /* line 303, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 292, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   50% {
     opacity: 0.5;
     text-shadow: 0px 0px 10px #fff;
@@ -289,7 +574,7 @@ h1.main, p.demos {
             transform: scale(1.1);
   }
 
-  /* line 308, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 297, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   100% {
     opacity: 1;
     text-shadow: 0px 0px 1px #fff;
@@ -299,21 +584,21 @@ h1.main, p.demos {
 }
 
 @keyframes fadeInBack {
-  /* line 315, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 304, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   0% {
     opacity: 0;
     -webkit-transform: scale(0);
             transform: scale(0);
   }
 
-  /* line 319, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 308, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   50% {
     opacity: 0.4;
     -webkit-transform: scale(2);
             transform: scale(2);
   }
 
-  /* line 323, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 312, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   100% {
     opacity: 0.2;
     -webkit-transform: scale(5);
@@ -322,18 +607,465 @@ h1.main, p.demos {
 }
 
 @keyframes fadeInRotate {
-  /* line 329, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 318, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   0% {
     opacity: 0;
     -webkit-transform: scale(0) rotate(360deg);
             transform: scale(0) rotate(360deg);
   }
 
-  /* line 333, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
+  /* line 322, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/homepage_banner.css.scss */
   100% {
     opacity: 1;
     -webkit-transform: scale(1) rotate(0deg);
             transform: scale(1) rotate(0deg);
+  }
+}
+/* line 1, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/hompage_typing.css.scss */
+#homepage-typing {
+  text-align: center;
+  color: #fff;
+  font-family: proxima_bold;
+  font-size: 4em;
+  letter-spacing: -1px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 800px;
+  z-index: 0;
+  position: relative;
+  background-attachment: fixed !important;
+}
+/* line 15, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/hompage_typing.css.scss */
+#homepage-typing #homepage-typing-content {
+  font-family: proxima_bold;
+  letter-spacing: -1px;
+  position: absolute;
+  padding-top: 300px;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+  background: -webkit-radial-gradient(rgba(41, 128, 185, 0.25) 50%, #2980b9);
+  background: -webkit-radial-gradient(rgba(41, 128, 185, 0.25), rgba(41, 128, 185, 0.5) 50%, #2980b9);
+  background: radial-gradient(rgba(41, 128, 185, 0.25), rgba(41, 128, 185, 0.5) 50%, #2980b9);
+}
+/* line 1, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+#mobile-nav-brand {
+  background: url(/assets/logos/JMlogowhitesmall-ffa34034a3d1c769fa19677d5b9467f9.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 58px !important;
+  height: 60px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #212326;
+  position: fixed;
+  z-index: 1001;
+  top: 12px;
+  left: 40%;
+}
+/* line 15, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+#mobile-nav-brand:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* line 20, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Offscreen {
+  height: 100%;
+  background: #212326;
+  position: fixed;
+  left: -640px;
+  width: 320px;
+  -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+  z-index: 1001;
+}
+
+/* line 30, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Offscreen.is-Open {
+  -webkit-transform: translate3d(200%, 0, 0);
+          transform: translate3d(200%, 0, 0);
+}
+
+/* line 33, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Button {
+  position: absolute;
+  right: -4em;
+  top: 0.5em;
+  background: #ddd;
+  width: 3.5em;
+  height: 3.5em;
+  padding: 0.5em;
+  cursor: pointer;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
+/* line 44, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Button:hover {
+  background: lightseagreen;
+}
+
+/* line 47, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Menu-Bar {
+  display: block;
+  margin-bottom: 0.5em;
+  left: 0.5em;
+  right: 0.5em;
+  height: 0.5em;
+  position: absolute;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  background: #555;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+/* line 58, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Menu-Bar.Menu-Top {
+  top: 0.5em;
+}
+
+/* line 61, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Menu-Bar.Menu-Middle {
+  top: 1.5em;
+}
+
+/* line 64, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Menu-Bar.Menu-Bottom {
+  top: 2.5em;
+}
+
+/* line 67, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Button:hover .Menu-Bar {
+  background: #FFF;
+}
+
+/* line 70, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.is-Open .Menu-Bar.Menu-Top {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 1.5em;
+}
+
+/* line 74, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.is-Open .Menu-Bar.Menu-Middle {
+  height: 0;
+}
+
+/* line 77, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.is-Open .Menu-Bar.Menu-Bottom {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 1.5em;
+}
+
+/* line 81, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Nav-List {
+  font-family: proxima_thin;
+  padding-top: 120px;
+  text-align: center;
+}
+
+/* line 87, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Nav-List ul,
+.Nav-List li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.6em;
+  line-height: 48px;
+}
+
+/* line 94, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Nav-List a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 98, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+.Nav-List a:hover {
+  color: lightseagreen;
+}
+
+@media screen and (min-width: 991px) {
+  /* line 103, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/mobile_navbar.css.scss */
+  .Nav-List {
+    display: none;
+  }
+}
+/* line 1, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 56px;
+  font-family: proxima_bold;
+  background: transparent;
+  padding: 12px 0 4px 14px;
+  z-index: 1005;
+  position: fixed;
+  border: none;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  background: #212326;
+}
+/* line 16, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .navbar-brand {
+  background: url(/assets/logos/JMlogowhitesmall-ffa34034a3d1c769fa19677d5b9467f9.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 58px !important;
+  height: 60px;
+  margin-top: -12px;
+  margin-bottom: -8px;
+  margin-left: -30px !important;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #212326;
+}
+/* line 30, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .navbar-brand:hover {
+  box-shadow: 1px 1px 2px #000;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/* line 36, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .header-button {
+  margin-right: 20px;
+}
+/* line 39, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .header-button button.btn-default {
+  border: none;
+  background-color: transparent;
+}
+/* line 44, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .header-button.bordered.btn-default {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 10px;
+}
+/* line 51, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .btn.btn-default {
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  background-color: transparent;
+  font-family: proxima_regular;
+  font-size: 14px;
+  margin-left: 0px;
+  border-bottom: 4px solid transparent;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+}
+/* line 72, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .btn.btn-default:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* line 77, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .consult-signup {
+  background: #aa4b41 !important;
+  padding: 8px !important;
+  color: #fff !important;
+  margin-top: -5px;
+  border-radius: 8px !important;
+}
+/* line 85, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .header-barrier {
+  color: #fff;
+  font-family: proxima_thin;
+  font-size: 2em;
+}
+/* line 91, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .trip-dropdown {
+  font-family: proxima_regular;
+  background: transparent !important;
+  color: #212326 !important;
+  font-size: 16px;
+  margin-top: -8px;
+  margin-right: 35px;
+  margin-left: 20px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-bottom: 4px solid transparent;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+}
+/* line 108, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .trip-dropdown:hover {
+  border-bottom: 4px solid #aa4b41;
+}
+/* line 113, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .trip-dropdown-content {
+  background: #37393b;
+  min-width: 178px;
+  margin-right: 35px;
+  border: none;
+  min-width: 360px;
+  margin-top: 13px;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+}
+/* line 125, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .trip-dropdown-content .trip-dropdown-title {
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.1em;
+}
+/* line 131, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .trip-dropdown-content .trip-dropdown-title:hover {
+  font-size: 1.3em;
+  background: rgba(255, 255, 255, 0.1);
+}
+/* line 138, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .mobile-navbar-navigation {
+  background: transparent;
+  margin-top: 5px;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  border: none;
+}
+/* line 146, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .mobile-navbar-navigation:hover {
+  background: transparent;
+}
+/* line 150, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .mobile-navbar-navigation .icon-bar {
+  background-color: #fff;
+}
+/* line 158, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header small.help-block {
+  text-align: center;
+}
+/* line 162, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .login_in_sign_up_btn {
+  border: 2px solid #fff;
+  background-color: transparent;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 10px;
+}
+/* line 169, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+#header .login_in_sign_up_btn:hover {
+  border: 2px solid #aa4b41;
+}
+
+/* line 175, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none;
+}
+
+/* line 179, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+.navbar-collapse {
+  box-shadow: none !important;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 184, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  #header {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 190, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  #header .navbar-brand {
+    margin-top: -6px;
+    margin-left: 5px !important;
+    margin-bottom: 0px;
+    width: 44px !important;
+    height: 48px;
+    background-color: transparent !important;
+    box-shadow: none;
+  }
+  /* line 199, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  #header .navbar-brand:hover {
+    height: 48px;
+    box-shadow: none;
+    background-color: transparent;
+    width: 44px !important;
+  }
+
+  /* line 207, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  #header .mobile-navbar-navigation {
+    margin-top: 0px;
+  }
+
+  /* line 211, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background: #fff;
+    box-shadow: 0px 9px 9px #222 !important;
+  }
+
+  /* line 216, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  #header {
+    padding: 12px 0 0px 0px;
+  }
+
+  /* line 220, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  #header .btn.btn-default {
+    width: 100%;
+    background: transparent;
+    font-size: 16px;
+    color: #212326;
+    border: none !important;
+    text-shadow: none;
+  }
+  /* line 228, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  #header .btn.btn-default:hover {
+    background: transparent;
+    color: rgba(33, 35, 38, 0.8);
+  }
+
+  /* line 234, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  #header .open .dropdown-menu {
+    margin: auto !important;
+    padding-top: 20px;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+  }
+
+  /* line 243, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  #header .trip-dropdown {
+    font-size: 14px;
+    color: #212326 !important;
+    text-align: center;
+    text-shadow: none;
+    margin: auto !important;
+    border: none !important;
+  }
+  /* line 251, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  #header .trip-dropdown:hover {
+    color: rgba(33, 35, 38, 0.8);
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 259, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  #header .trip-dropdown-content {
+    min-width: 0px;
+  }
+
+  /* line 263, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/navbar.css.scss */
+  #header .btn.btn-default {
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
 /* JON MASER FONTS */

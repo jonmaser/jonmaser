@@ -1,0 +1,30 @@
+#homepage-typing {
+	text-align: center;
+	color:#fff;
+	font-family: proxima_bold;
+	font-size: 4em;
+	letter-spacing: -1px;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 800px;
+	z-index: 0;
+	position: relative;
+	background-attachment: fixed !important;
+
+	#homepage-typing-content {
+		font-family: proxima_bold;
+		letter-spacing: -1px;
+		position: absolute;
+		padding-top: 300px;
+		width: 100%;
+		height: 100%;
+		left: 0px;
+		top: 0px;
+		z-index: 1000;
+		background: -webkit-radial-gradient(rgba(41, 128, 185, 0.25) 50%, rgba(41, 128, 185, 1));
+		background: -moz-radial-gradient(rgba(41, 128, 185, 0.25), rgba(41, 128, 185, 0.5) 50%, rgba(41, 128, 185, 1));
+		background: -ms-radial-gradient(rgba(41, 128, 185, 0.25), rgba(41, 128, 185, 0.5) 50%, rgba(41, 128, 185, 1));
+		background: radial-gradient(rgba(41, 128, 185, 0.25), rgba(41, 128, 185, 0.5) 50%, rgba(41, 128, 185, 1));
+	}
+}
