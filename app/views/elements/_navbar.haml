@@ -10,37 +10,65 @@
         %a.navbar-brand{href: "/"}
     #bs-example-navbar-collapse-1.collapse.navbar-collapse.mobile-navbar-menu
       %ul.nav.navbar-nav.navbar-left
-        %a{:href => "/projects"} 
-          .btn.btn-default
+        %a
+          .btn.btn-default.about-me-link
             About Me
-        %a{:href => "/about-us"} 
-          .btn.btn-default
+        %a
+          .btn.btn-default.my-beliefs-link
+            What I Believe
+        %a
+          .btn.btn-default.brands-link
             Brands I've Built
-        %a{:href => "/about-us"} 
-          .btn.btn-default
-            Places I've Been
+        %a
+          .btn.btn-default.connect-link
+            Let's Connect
 
 :javascript
 
-(function ($) {
-  $(document).ready(function(){
+  (function ($) {
+    $(document).ready(function(){
+      
+    // hide .navbar first
+    $("#header").hide();
     
-  // hide .navbar first
-  $("#header").hide();
-  
-  // fade in .navbar
-  $(function () {
-    $(window).scroll(function () {
-            // set distance user needs to scroll before we fadeIn navbar
-      if ($(this).scrollTop() > 100) {
-        $('#header').fadeIn();
-      } else {
-        $('#header').fadeOut();
-      }
+    // fade in .navbar
+    $(function () {
+      $(window).scroll(function () {
+              // set distance user needs to scroll before we fadeIn navbar
+        if ($(this).scrollTop() > 100) {
+          $('#header').fadeIn();
+        } else {
+          $('#header').fadeOut();
+        }
+      });
+
+    
     });
 
-  
   });
+    }(jQuery));
 
-});
-  }(jQuery));
+
+  $('.about-me-link').click(function(){
+    $('html, body').animate({
+      scrollTop: $("#about_me").offset().top - 56}, 800
+    )
+  })
+
+  $('.my-beliefs-link').click(function(){
+    $('html, body').animate({
+      scrollTop: $("#my_beliefs").offset().top - 56}, 800
+    )
+  })
+
+  $('.brands-link').click(function(){
+    $('html, body').animate({
+      scrollTop: $(".brands-container").offset().top - 56}, 800
+    )
+  })
+
+  $('.connect-link').click(function(){
+    $('html, body').animate({
+      scrollTop: $(".partner-signup").offset().top - 56}, 800
+    )
+  })

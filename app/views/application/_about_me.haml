@@ -3,85 +3,125 @@
 	.col-md-12.about-me-details
 
 		.about-me-mission
-			.about-me-header
-				My mission is to always seek adventure.
+			.about-me-header 
+				I always seek adventure.
+			.about-me-subtitle
+				I fuck up a lot, and sometimes succeed too; but it's always the journey that's worthwhile.
 			.about-me-mission-text
-				Whether through launching adventure travel companies, riding across countries on a motorcycle or circumnaviating the world on a ship, I always looking to experience unfamiliar
-				%b{style: "font-family: proxima_black; color: #438496; letter-spacing: 0.5px;"} people, places and experiences.
-				Travel has not only exposed the beauty and excitement in life but also, how unaware many are about one another. Because of that, I’ve dedicated my life helping others experience our world in a meaningful and positive way.
+				“Adventure” is so overused, so let me clarify...I thrive most when there are no plans, the unexpected is expected and “new” describes everyone you meet, everywhere you go and the situations you experience.
+				<br>
+				<br>
+				In business, it’s those who are comfortable deviating from the norm that will succeed and in travel, it’s those who go outside of their comfort zone that will have the most authentic experiences.
+				<br>
+				<br>
+				Whether through launching travel tech companies, riding across countries on motorcycles, learning to code or circumnaviating the world on a ship, I'm constantly striving towards unfamiliar people, places and experiences.
 
-			.col-md-10.col-md-offset-1.icon-categories
-				.col-md-4.icon-category-container
-					.icon-category-header
-						Design Thinking & Business Strategy
-					.icon-category{style: "background: url('#{asset_path("icons/lightbulb.png")}') center center no-repeat"}
-				.col-md-4.icon-category-container
-					.icon-category-header
-						Development & Experience
-					.icon-category{style: "background: url('#{asset_path("icons/dev.png")}') center center no-repeat"}
-				.col-md-4.icon-category-container
-					.icon-category-header
-						Traveling & Empathy
-					.icon-category{style: "background: url('#{asset_path("icons/hotair.png")}') center center no-repeat"}
+		#my_beliefs
+			.quote-content
+				.traveler-quote-header
+					What I strongly believe
+				.traveler-quote-name
+					Travel can be used as a force for good.
+				.traveler-quote-text
+					In addition to being the world's largest wealth distribution mechanism, travel can widen perspectives, evoke empathy and bring our world closer together. Travel has not only exposed the beauty and excitement in life but also, how unaware many are about one another. Because of that, I’ve dedicated my life helping others experience our world in a meaningful and positive way.
+				.quote-images
+					.quote-image-button.blue-link{"data-name" => "Travel can be used as a force for good.", "data-description" => "In addition to being the world's largest wealth distribution mechanism, travel can widen perspectives, evoke empathy and bring our world closer together. Travel has not only exposed the beauty and excitement in life but also, how unaware many are about one another. Because of that, I’ve dedicated my life helping others experience our world in a meaningful and positive way.", style: "background: url('#{asset_path("icons/hotair.png")}') center center no-repeat; border: 4px solid #fff;"}
+					.quote-image-button.green-link{"data-name" => "Offline travel experiences begin online.", "data-description" => "With a focus on the millenial generation, I've always been concentrated on user's experience. From discovery to post-trip, what does a traveler see and how do they behave? For the past three years, I've been working with hundreds of tour operators and guides to determine how best we can bridge their offline offerings on to the web.", style: "background: url('#{asset_path("icons/dev.png")}') center center no-repeat"}
+					.quote-image-button.yellow-link{"data-name" => "Entrepreneurship can solve our biggest challenges.", "data-description" => "Not only do I love problem solving, I have a healthy obsession with finding the right problems to solve. Since college, I've been building companies that align with my passions in travel and social entreprenuership. When I pinpoint a need and find access to it's users, I turn ideas into businesses.", style: "background: url('#{asset_path("icons/lightbulb.png")}') center center no-repeat"}
 
-		.partners-grid
-			.partners-grid-image-container
-				.partners-grid-image{style: "background: url('#{asset_path("background/adventureconsultingred.jpeg")}') right bottom no-repeat"}
+		.brands-container
+			.col-md-12.brand-row
+				.col-md-6.thumb
+					.thumb-background
+						.thumb-text
+							See the next round of trips
+							<br>
+							.fa.fa-angle-down{style: "color: #212326; font-size: 64px; margin: auto;"}
+					%a.btn{:href => "http://www.madebyadventure.com/", :target => "_blank", style: "background: url('#{asset_path("background/surfsmilelogo.jpeg")}') center center no-repeat"}
+						%span madebyadventure.com
+				.col-md-6.brand-text-box
+					.brand-grid-header
+						MadebyAdventure
+					.brand-grid-subheader
+						Adventures with a Mission
+					.brand-grid-description
+						A for-profit social enterprise, MadebyAdventure was founded in order to use travel as a force for good. Our team has partnered with non-profits, media outlets, ambassadors and travelers around the world to collaborate on trips that not only make a positive impact economically but also to minimize the environmental footprint and promote empathy through local guides and experiences. Our 2016 trips include Kyrgyzstan, Peru, Colombia, Vietnam, Mexico and Panama. A consulting branch was also established to assist our local partners on an on-going basis post-trip. 
 
-					.partners-grid-text{style: "background: rgba(67,132,150,0.9);"}
-						.partners-grid-header
-							Good stories make for great business.
-						.partners-grid-subheader
-							Brand Strategy
-						.partners-grid-underline-container
-							.partners-grid-underline
-						.partners-grid-description
-							You might have the most badass, personable team of guides in the world, but unless you make a good first impression, travelers will never find out. We'll work with you to tell the story that reflects who you really are and the type of experiences you provide. A compelling brand leads to easier sales.
+			.col-md-12.brand-row
+				.col-md-6.brand-text-box
+					.brand-grid-header
+						Adventure Local
+					.brand-grid-subheader
+						Connecting local adventure guides with travelers
+					.brand-grid-description
+						I founded Adventure Local (Advlo) in 2013 after circumnavigating the globe, meeting countless amazing local guides and realize all of my best experiences stemmed from authentic connections that couldn’t be found online. Our team built a platform for 600 local guides and operators to market their trips, communicate with customers, schedule reservations and take global payments.
+				.col-md-6.thumb
+					.thumb-background
+						.thumb-text
+							Search through our database
+							<br>
+							.fa.fa-angle-down{style: "color: #212326; font-size: 64px; margin: auto;"}
+					%a.btn{:href => "http://www.advlo.com/", :target => "_blank", style: "background: url('#{asset_path("background/surflessonlogo.jpeg")}') center center no-repeat"}
+						%span advlo.com
 
-		.partners-grid
-			.partners-grid-image-container
-				.partners-grid-image{style: "background: url('#{asset_path("background/bluetriangles.png")}') left center no-repeat"}
 
-					.partners-grid-text{style: "float: right; background: rgba(170, 75, 65, 0.9)"}
-						.partners-grid-header
-							Potential sales you might not even know about.
-						.partners-grid-subheader
-							Development & Design
-						.partners-grid-underline-container
-							.partners-grid-underline
-						.partners-grid-description
-							Call us crazy, but we believe planning and booking a trip should be fun. We design websites with the traveler in mind, focusing on clarity and simplicity, making sure your hard-earned traffic converts. Keeping it simple is the name of the game. It's 2016 and you don't need a webmaster to run your site. We'll get you set up and show you how to be the boss of your new site.
+			.col-md-12.brand-row
+				.col-md-6.thumb
+					.thumb-background
+						.thumb-text
+							Travel on two wheels
+							<br>
+							.fa.fa-angle-down{style: "color: #212326; font-size: 64px; margin: auto;"}
+					%a.btn{:href => "http://www.motoguides.com/", :target => "_blank", style: "background: url('#{asset_path("background/motorcycleshot.jpeg")}') center center no-repeat"}
+						%span motoguides.com
+				.col-md-6.brand-text-box
+					.brand-grid-header
+						MotoGuides
+					.brand-grid-subheader
+						Online booking software for motorcycle adventure travel
+					.brand-grid-description
+						MotoGuides was founded in Austin as an experiment to concentrate on a vertical market within adventure travel. Within a few months we built a full back-end solution for tour companies to create, map and sell their trips around the world, while travelers could instantly book or request custom trips.
 
-		.partners-grid
-			.partners-grid-image-container
-				.partners-grid-image{style: "background: url('#{asset_path("background/geometrycolors.png")}') right center no-repeat"}
+			.col-md-12.mobile-brand-row
+				.mobile-brand-image{style: "background: url('#{asset_path("background/surfsmilelogo.jpeg")}') center center no-repeat"}
+				.mobile-brand-header
+					MadebyAdventure
+				.mobile-brand-subtitle
+					Adventures with a Mission
+				.mobile-brand-description
+					A for-profit social enterprise, MadebyAdventure was founded in order to use travel as a force for good. Our team has partnered with non-profits, media outlets, ambassadors and travelers around the world to collaborate on trips that not only make a positive impact economically but also to minimize the environmental footprint and promote empathy through local guides and experiences. Our 2016 trips include Kyrgyzstan, Peru, Colombia, Vietnam, Mexico and Panama. A consulting branch was also established to assist our local partners on an on-going basis post-trip. 
+				%a{:href => "http://www.madebyadventure.com/"}
+					.mobile-brand-link
+						View Site
 
-					.partners-grid-text{style: "background: rgba(50,140,193,0.9);"}
-						.partners-grid-header
-							Finding ways to be heard in a crowded digital world.
-						.partners-grid-subheader
-							Digital Marketing
-						.partners-grid-underline-container
-							.partners-grid-underline
-						.partners-grid-description
-							Marketing can suck your time, energy, and money if you let it. We'll work with you to take control of your marketing plan, implementing strategies that provide return. We'll help you target the right people with the right message at the right time. Social media, PPC, SEO, content, PR, influencer campaigns, affiliate programs. We can do it all.
-		.partners-grid
-			.partners-grid-image-container
-				.partners-grid-image{style: "background: url('#{asset_path("background/CamCliffPicNoLogo.jpeg")}') right bottom no-repeat"}
+			.col-md-12.mobile-brand-row
+				.mobile-brand-image{style: "background: url('#{asset_path("background/surflessonlogo.jpeg")}') center center no-repeat"}
+				.mobile-brand-header
+					Adventure Local
+				.mobile-brand-subtitle
+					Connecting local adventure guides with travelers
+				.mobile-brand-description
+					I founded Adventure Local (Advlo) in 2013 after circumnavigating the globe, meeting countless amazing local guides and realize all of my best experiences stemmed from authentic connections that couldn’t be found online. Our team built a platform for 600 local guides and operators to market their trips, communicate with customers, schedule reservations and take global payments. 
+				%a{:href => "http://www.advlo.com/"}
+					.mobile-brand-link
+						View Site
 
-					.partners-grid-text{style: "float: right; background: rgba(179,125,78,0.9);;"}
-						.partners-grid-header
-							Teaming up to put together a trip.
-						.partners-grid-subheader
-							Experience Design
-						.partners-grid-underline-container
-							.partners-grid-underline
-						.partners-grid-description
-							We’ll work alongside you to create a compelling itinerary, show you how to list it on your site, and work together to market and sell the trip. By running through the process of creating and selling a trip, you’ll see exactly how powerful your new brand can be. It’s tech support meets experiencial learning we can both enjoy. Trips that fit our personal brand will also be marketed and promoted through MadebyAdventure’s main page and our partner channels.
+			.col-md-12.mobile-brand-row
+				.mobile-brand-image{style: "background: url('#{asset_path("background/motorcycleshot.jpeg")}') center center no-repeat"}
+				.mobile-brand-header
+					MotoGuides
+				.mobile-brand-subtitle
+					Online booking software for motorcycle adventure travel
+				.mobile-brand-description
+					MotoGuides was founded in Austin as an experiment to concentrate on a vertical market within adventure travel. Within a few months we built a full back-end solution for tour companies to create, map and sell their trips around the world, while travelers could instantly book or request custom trips.
+				%a{:href => "http://www.motoguides.com/"}
+					.mobile-brand-link
+						View Site
 
-	.col-md-12.partner-signup
+
+	.col-md-12.partner-signup{style: "background: url('#{asset_path("background/CamCliffPicHomepage.jpeg")}') left center no-repeat"}
 		.partner-signup-title
-			Start the conversation
+			Let's talk travel, social entrepreneurship or future opportunities.
 		%a{:href => "mailto:jonmaser@gmail.com?Subject=Hello%20Jon", :target => "_top"}
 			.partner-signup-btn
 				Let's Talk.
@@ -119,3 +159,23 @@
 			}); 
 		});
 	});;
+
+	$(".quote-image-button").on("click", function() {
+		$('.quote-image-button').css('border', '0px solid #fff');
+		$(this).css('border','4px solid #fff');
+    
+		$('.traveler-quote-name').html($(this).data('name'))
+		$('.traveler-quote-text').html($(this).data('description'))
+	});
+
+	$(".yellow-link").on("click", function() {
+		$('#my_beliefs').css('background', '#f5cf87');
+	});
+
+	$(".green-link").on("click", function() {
+		$('#my_beliefs').css('background', '#76c2af');
+	});
+
+	$(".blue-link").on("click", function() {
+		$('#my_beliefs').css('background', '#77b3d4');
+	});

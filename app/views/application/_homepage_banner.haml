@@ -1,4 +1,4 @@
-.banner-container{style: "background: url('#{asset_path("background/lakemountain.jpeg")}') center center no-repeat"}
+.banner-container{"data-speed" => "-2", "data-type" => "parallax", style: "background: url('#{asset_path("background/lakemountain.jpeg")}') center center no-repeat"}
 	.banner-content
 		.banner-globe
 		%h2.frame-1
@@ -28,4 +28,21 @@
 		$('html, body').animate({
 			scrollTop: $("#about_me").offset().top + 5}, 800
 		)
+	})
+
+	;(function($) {
+	    $window = $(window);
+
+	    $('*[data-type="parallax"]').each(function(){
+
+	        var $bgobj = $(this);
+
+	        $(window).scroll(function() {
+
+	            var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+	            var coords = '50% '+ yPos + 'px';
+
+	            $bgobj.css({ backgroundPosition: coords });
+	        });
+	    });
 	})
