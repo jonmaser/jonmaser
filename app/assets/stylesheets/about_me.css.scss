@@ -421,6 +421,10 @@
 
 @media screen and (max-width: 991px){
 
+	#about_me .partner-signup{
+		background-attachment: scroll !important;
+	}
+
 	#about_me .about-me-details .brands-container .brand-row{
 		display: none;
 	}

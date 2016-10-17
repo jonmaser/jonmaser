@@ -10,7 +10,7 @@
 	height: 800px;
 	z-index: 0;
 	position: relative;
-	background-attachment: fixed !important;
+	background-attachment: fixed;
 	background-size: cover !important;
 
 	#homepage-typing-content {
@@ -34,6 +34,7 @@
 
 	#homepage-typing{
 		font-size: 2em;
+		background-attachment: scroll !important;
 	}
 }
 
