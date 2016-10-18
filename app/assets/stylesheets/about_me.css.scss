@@ -472,10 +472,6 @@
 	}
 }
 
-@media screen and (max-width: 771px){
-
-	
-}
 
 @media screen and (max-width: 500px){
 	#about_me .about-me-details .about-me-mission .about-me-header{
@@ -530,8 +526,17 @@
 		height: 72px;
 	}
 
+	#about_me .about-me-details .brands-container{
+		padding-top: 64px;
+	}
+
 	#about_me .about-me-details .brands-container .mobile-brand-row .mobile-brand-header{
 		font-size: 2em;
+	}
+
+	#about_me .about-me-details .brands-container .mobile-brand-row{
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
 	#about_me .partner-signup{

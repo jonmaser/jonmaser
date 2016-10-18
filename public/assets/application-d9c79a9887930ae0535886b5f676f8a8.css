@@ -490,66 +490,71 @@
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 481, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 477, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .about-me-details .about-me-mission .about-me-header {
     max-width: 300px;
     font-size: 2em;
     padding-top: 64px;
   }
 
-  /* line 487, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 483, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .about-me-details .about-me-mission .about-me-subtitle {
     max-width: 300px;
     font-size: 1em;
     padding-bottom: 10px;
   }
 
-  /* line 493, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 489, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .about-me-details .about-me-mission .about-me-mission-text {
     max-width: 300px;
     font-size: 1em;
     padding-bottom: 72px;
   }
 
-  /* line 499, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 495, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .about-me-details #my_beliefs {
     height: 550px;
   }
 
-  /* line 503, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 499, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .about-me-details #my_beliefs .quote-content {
     max-width: 300px;
     padding-top: 64px;
     padding-bottom: 72px;
   }
 
-  /* line 509, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 505, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .about-me-details #my_beliefs .quote-content .traveler-quote-header {
     font-size: 2em;
   }
 
-  /* line 513, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 509, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .about-me-details #my_beliefs .quote-content .traveler-quote-name {
     font-size: 2em;
     padding-bottom: 10px;
     letter-spacing: 0px;
   }
 
-  /* line 519, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 515, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .about-me-details #my_beliefs .quote-content .traveler-quote-text {
     font-size: 1em;
   }
 
-  /* line 523, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 519, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .about-me-details #my_beliefs .quote-content .quote-images {
     max-width: 300px;
     padding-top: 24px;
   }
 
-  /* line 528, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 524, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .about-me-details #my_beliefs .quote-content .quote-images .quote-image-button {
     width: 72px;
     height: 72px;
+  }
+
+  /* line 529, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .about-me-details .brands-container {
+    padding-top: 64px;
   }
 
   /* line 533, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
@@ -558,23 +563,29 @@
   }
 
   /* line 537, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  #about_me .about-me-details .brands-container .mobile-brand-row {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* line 542, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .partner-signup {
     height: 550px;
     padding-top: 140px;
   }
 
-  /* line 542, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 547, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .partner-signup .partner-signup-title {
     font-size: 2em;
     max-width: 300px;
   }
 
-  /* line 547, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 552, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .about-me-details .brands-container .mobile-brand-row .mobile-brand-subtitle {
     font-size: 1.2em;
   }
 
-  /* line 551, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
+  /* line 556, /Users/SerKnight/Desktop/projects/jonmaser/app/assets/stylesheets/about_me.css.scss */
   #about_me .about-me-details .brands-container .mobile-brand-row .mobile-brand-description {
     font-size: 1em;
   }
