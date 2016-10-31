@@ -118,6 +118,27 @@
 			padding-top: 128px;
 			padding-bottom: 144px;
 
+			.brands-header{
+				font-family: proxima_black;
+				font-size: 3em;
+				color: #212326;
+				text-align: left;
+				letter-spacing: -1px;
+				max-width: 600px;
+				margin: auto;
+			}
+
+			.brands-subtitle{
+				max-width: 600px;
+				margin: auto;
+				font-family: proxima_regular;
+				font-size: 1.4em;
+				color: #212326;
+				text-align: left;
+				padding-bottom: 20px;
+				letter-spacing: -0.5px;
+			}
+
 			.thumb {
 				height: 425px; 
 				perspective: 800px;
@@ -342,27 +363,6 @@
 				transform: rotateX(0) translateZ(-60px) scale(0.85);
 			}
 
-			.brands-header{
-				max-width: 800px;
-				margin: auto;
-				font-family: proxima_black;
-				font-size: 3.2em;
-				text-align: left;
-				color: #212326;
-				letter-spacing: -1px;
-			}
-
-			.brands-subtitle{
-				max-width: 800px;
-				margin: auto;
-				font-family: proxima_bold;
-				font-size: 2.4em;
-				color: #212326;
-				text-align: left;
-				padding-bottom: 20px;
-				letter-spacing: -1px;
-			}
-
 			.brands-title-text{
 				max-width: 800px;
 				margin: auto;
@@ -384,11 +384,11 @@
 		background-size: cover !important;
 
 		.partner-signup-title{
-			font-family: proxima_bold;
-			font-size: 2.4em;
+			font-family: proxima_thin;
+			font-size: 3.5em;
 			text-align: center;
 			color: #fff;
-			max-width: 600px;
+			max-width: 800px;
 			margin: auto;
 			letter-spacing: -1px;
 			padding-bottom: 24px;
@@ -396,15 +396,16 @@
 
 		.partner-signup-btn{
 			max-width: 190px;
-			color: #212326;
+			color: #fff;
 			margin: auto;
 			text-align: center;
 			height: 50px;
 			font-family: proxima_bold;
 			font-size: 1.2em;
 			margin-top: 12px;
-			padding-top: 14px;
-			background: #fff;
+			padding-top: 12px;
+			background: rgba(0,0,0,0.3);
+			border: 2px solid #fff;
 
 			-webkit-transition: .2s ease-in-out;
 			-moz-transition: .2s ease-in-out;
@@ -431,6 +432,12 @@
 
 	#about_me .about-me-details .brands-container .mobile-brand-row{
 		display: block;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	#about_me .about-me-details .brands-container .brands-subtitle{
+		font-size: 1.2em;
 	}
 
 	#about_me .about-me-details .about-me-mission .about-me-header{
@@ -528,10 +535,23 @@
 
 	#about_me .about-me-details .brands-container{
 		padding-top: 64px;
+		max-width: 300px;
 	}
 
 	#about_me .about-me-details .brands-container .mobile-brand-row .mobile-brand-header{
 		font-size: 2em;
+	}
+
+	#about_me .about-me-details .brands-container .brands-header{
+		font-size: 2em;
+	}
+
+	#about_me .about-me-details .brands-container .brands-subtitle{
+		font-size: 1em;
+	}
+
+	#about_me .about-me-details .brands-container .mobile-brand-row .mobile-brand-image{
+		height: 200px;
 	}
 
 	#about_me .about-me-details .brands-container .mobile-brand-row{
