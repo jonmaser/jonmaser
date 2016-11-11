@@ -3,15 +3,14 @@
     %i.Menu-Bar.Menu-Top
     %i.Menu-Bar.Menu-Middle
     %i.Menu-Bar.Menu-Bottom
-  %a{href: "/"}
-    #mobile-nav-brand{href: "/"}
+    #mobile-nav-brand
   %ul
     %li.about-me-link
       %a.about-me-link About Me
-    %li.my-beliefs-link
-      %a.my-beliefs-link What I Believe
     %li.brands-link
       %a.brands-link Brands I've Built
+    %li.my-beliefs-link
+      %a.my-beliefs-link What I Believe
     %li.connect-link
       %a.connect-link Connect with Me
 
@@ -23,7 +22,7 @@
 
   $('.about-me-link').click(function(){
     $('html, body').animate({
-      scrollTop: $("#about_me").offset().top - 0}, 800
+      scrollTop: $("#short-bio").offset().top - 0}, 800
     )
   })
 
@@ -35,12 +34,12 @@
 
   $('.brands-link').click(function(){
     $('html, body').animate({
-      scrollTop: $(".brands-container").offset().top - 0}, 800
+      scrollTop: $("#mobile_my_brands").offset().top - 0}, 800
     )
   })
 
   $('.connect-link').click(function(){
     $('html, body').animate({
-      scrollTop: $(".partner-signup").offset().top - 0}, 800
+      scrollTop: $("#partner-signup").offset().top - 0}, 800
     )
   })

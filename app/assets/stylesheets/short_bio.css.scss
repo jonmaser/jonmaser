@@ -1,0 +1,82 @@
+#short-bio{
+	background-color: #004ad6 !important;
+	background-size: cover;
+	height: 1500px;
+
+	.profile-description{
+		padding-bottom: 144px;
+
+		.profile-image{
+			height: 220px;
+			width: 220px;
+			margin: auto;
+			border-radius: 50%;
+			border: 16px solid #fff;
+			background-size: cover !important;
+			margin-bottom: 32px;
+			margin-top: -110px;
+			z-index: 1007;
+			position: relative;
+		}
+
+		.short-bio-header{
+			max-width: 800px;
+			margin: auto;
+			font-family: proxima_bold;
+			font-size: 2.4em;
+			text-align: center;
+			color: #fff;
+		}
+
+		.short-bio-subheader{
+			max-width: 534px;
+			margin: auto;
+			font-family: proxima_thin;
+			font-size: 1.4em;
+			text-align: center;
+			color: rgba(255, 255, 255, 0.6);
+			letter-spacing: -0.5px;
+			line-height: 28px;
+		}
+	}
+}
+
+@media screen and (max-width: 991px){
+
+	#short-bio{
+		background-size: cover !important;
+		height: 1000px;
+	}
+	
+	#short-bio .profile-description .short-bio-header{
+		max-width: 500px;
+		font-size: 1.8em;
+	}
+
+	#short-bio .profile-description .short-bio-subheader{
+		font-size: 1.2em;
+		max-width: 450px;
+	}
+}
+
+@media screen and (max-width: 500px){
+
+	#short-bio{
+		height: 800px;
+	}
+
+	#short-bio .profile-description .short-bio-header{
+		max-width: 500px;
+		font-size: 1.2em;
+	}
+
+	#short-bio .profile-description .short-bio-subheader{
+		font-size: 1em;
+		max-width: 450px;
+		line-height: 24px;
+		color: #fff;
+		letter-spacing: -0.3px;
+	}
+}
+
+

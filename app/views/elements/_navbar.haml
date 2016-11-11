@@ -2,10 +2,6 @@
   .container-fluid{style: "background: transparent; z-index: 1001; position: relative;"}
     .navbar-header
       %button.navbar-toggle.collapsed.mobile-navbar-navigation{"aria-expanded" => "false", "data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
-        %span.sr-only
-        %span.icon-bar
-        %span.icon-bar
-        %span.icon-bar
       .col-md-12
         %a.navbar-brand{href: "/"}
     #bs-example-navbar-collapse-1.collapse.navbar-collapse.mobile-navbar-menu
@@ -14,11 +10,11 @@
           .btn.btn-default.about-me-link
             About Me
         %a
-          .btn.btn-default.my-beliefs-link
-            What I Believe
-        %a
           .btn.btn-default.brands-link
             Brands I've Built
+        %a
+          .btn.btn-default.my-beliefs-link
+            What I Believe
         %a
           .btn.btn-default.connect-link
             Let's Connect
@@ -51,7 +47,7 @@
 
   $('.about-me-link').click(function(){
     $('html, body').animate({
-      scrollTop: $("#about_me").offset().top - 56}, 800
+      scrollTop: $("#short-bio").offset().top - 56}, 800
     )
   })
 
@@ -69,6 +65,6 @@
 
   $('.connect-link').click(function(){
     $('html, body').animate({
-      scrollTop: $(".partner-signup").offset().top - 56}, 800
+      scrollTop: $("#partner-signup").offset().top - 56}, 800
     )
   })

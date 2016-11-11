@@ -1,0 +1,46 @@
+#my_beliefs.col-md-12
+	.quote-content
+		.traveler-quote-header
+			I strongly believe...
+		.traveler-quote-name
+			Travel can be used as a force for good.
+		.traveler-quote-text
+			In addition to being the world's largest wealth distribution mechanism, travel can widen perspectives, evoke empathy and bring our world closer together. Travel has not only exposed the beauty and excitement in life but also, how unaware many are about one another. Because of this, I’ve dedicated my life helping others experience our world in a meaningful and positive way.
+		.quote-images
+			.quote-image-button.blue-link{"data-name" => "Travel can be used as a force for good.", "data-description" => "In addition to being the world's largest wealth distribution mechanism, travel can widen perspectives, evoke empathy and bring our world closer together. Travel has not only exposed the beauty and excitement in life but also, how unaware many are about one another. Because of this, I’ve dedicated my life helping others experience our world in a meaningful and positive way.", style: "background: url('#{asset_path("icons/hotair.png")}') center center no-repeat; border: 4px solid #fff;"}
+			.quote-image-button.yellow-link{"data-name" => "Entrepreneurship can solve our biggest challenges.", "data-description" => "Not only do I love problem solving, I have a healthy obsession with defining the right problems to solve through design thinking and empathy research (largely due to my experiences with Stanford’s d.school and Unreasonable at Sea). When I can pinpoint a problem worth solving as well as connect with users and their needs, I develop businesses around problems, not solutions.", style: "background: url('#{asset_path("icons/lightbulb.png")}') center center no-repeat"}
+			.quote-image-button.green-link{"data-name" => "Offline travel experiences begin online.", "data-description" => "From discovery to post-trip, I’ve developed a particular interest in how travel experiences develop online from the perspective of both the traveler and the service providers. For the past three years, I've been working with hundreds of tour operators and guides with the most authentic travel experiences to determine how best we can bridge their offline offerings on to the web.", style: "background: url('#{asset_path("icons/dev.png")}') center center no-repeat"}
+
+	#partner-signup{style: "background: url('#{asset_path("background/CamCliffPicHomepage.jpeg")}') left center no-repeat"}
+		.partner-signup-title
+			Let's talk travel, social entrepreneurship or future opportunities.
+		%a{:href => "mailto:jonmaser@gmail.com?Subject=Hello%20Jon", :target => "_top"}
+			.partner-signup-btn
+				Let's Talk.
+	.social-link-container
+		%a.social-link{:href => "https://www.facebook.com/JonMaser", :target => "_blank", style: "background: url('#{asset_path("background/facebook.png")}') center center no-repeat"}
+		%a.social-link{:href => "https://www.linkedin.com/in/jonmaser", :target => "_blank", style: "background: url('#{asset_path("background/linkedin.png")}') center center no-repeat"}
+		%a.social-link{:href => "https://github.com/jonmaser", :target => "_blank", style: "background: url('#{asset_path("background/github.png")}') center center no-repeat"}
+		%a.social-link{:href => "https://www.instagram.com/monjaser/", :target => "_blank", style: "background: url('#{asset_path("background/instagram.png")}') center center no-repeat"}
+
+:javascript
+
+	$(".quote-image-button").on("click", function() {
+		$('.quote-image-button').css('border', '0px solid #fff');
+		$(this).css('border','4px solid #fff');
+    
+		$('.traveler-quote-name').html($(this).data('name'))
+		$('.traveler-quote-text').html($(this).data('description'))
+	});
+
+	$(".yellow-link").on("click", function() {
+		$('#my_beliefs').css('background', '#f5cf87');
+	});
+
+	$(".green-link").on("click", function() {
+		$('#my_beliefs').css('background', '#76c2af');
+	});
+
+	$(".blue-link").on("click", function() {
+		$('#my_beliefs').css('background', '#77b3d4');
+	});

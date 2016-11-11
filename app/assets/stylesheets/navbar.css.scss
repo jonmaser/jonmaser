@@ -6,12 +6,12 @@
 	font-family: proxima_bold;
 	background: transparent;
 	padding: 12px 0 4px 14px;
-	z-index: 1005;
+	z-index: 1004;
 	position: fixed;
 	border: none;
 	margin-bottom: 0px;
 	border-radius: 0px;
-	background: rgb(33,35,38);
+	background: #fff;
 
 	.navbar-brand {
 		background: asset-url("logos/JMlogowhitesmall.png");
@@ -24,12 +24,11 @@
 		margin-left: -30px !important;
 		-webkit-transition: all 0.2s ease;
 		transition: all 0.2s ease;
-		box-shadow: 1px 1px 2px #000;
 		background-color: #212326;
 
 		&:hover{
 			box-shadow: 1px 1px 2px #000;
-			background-color: rgba(255,255,255,0.8);
+			background-color: #636a75;
 		}
 	}
 
@@ -49,7 +48,7 @@
 	}
 
 	.btn.btn-default {
-		color: #fff;
+		color: #212326;
 		border: none;
 		border-radius: 0px;
 		background-color: transparent;
@@ -69,7 +68,7 @@
 		-o-transition: .3s ease-in-out;
 
 		&:hover{
-			color: rgba(255,255,255,0.5);
+			opacity: 0.8;
 		}
 	}
 

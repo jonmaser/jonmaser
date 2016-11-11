@@ -1,6 +1,8 @@
-#homepage-typing{style: "background: url('#{asset_path("background/redmountains.jpeg")}') fixed bottom center no-repeat"}
+#homepage-typing
 	#homepage-typing-content
-		.typewrite{"data-period" => "2000", "data-type" => "[ \"Hey, I'm Jon Maser.\", \"I design, build and launch brands\", \"to connect, inspire and engage\", \"Let's build something amazing.\" ]", :href => ""}
+		.homepage-header
+			I create...
+		.typewrite{"data-period" => "2000", "data-type" => "[ \"Teams.\", \"Brands.\", \"Applications.\", \"Experiences.\"]", :href => ""}
 			%span.wrap
 
 :javascript
@@ -58,6 +60,8 @@
 			// INJECT CSS
 			var css = document.createElement("style");
 			css.type = "text/css";
-			css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+			css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #212326}";
 			document.body.appendChild(css);
 		};
+
+/ Hey, I'm Jon Maser. I design, build and launch brands to connect, inspire and engage. Let's build something amazing.

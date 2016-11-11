@@ -1,0 +1,316 @@
+.brands-container{
+	max-width: 100%;
+	margin: auto;
+	background-color: #fff !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+
+	.brands-title-container{
+		padding-top: 196px;
+		padding-bottom: 196px;
+		margin: auto;
+		padding-left: 12px;
+		padding-right: 12px;
+		position: relative;
+		z-index: 1001;
+		margin-top: -44px;
+		background: #bde8fa;
+		border-radius: 4px;
+		margin-top: -116px;
+
+		.brands-header{
+			font-family: proxima_bold;
+			font-size: 4em;
+			color: #5296cb;
+			text-align: center;
+			letter-spacing: -3px;
+		}
+
+		.brands-subtitle{
+			max-width: 700px;
+			margin: auto;
+			font-family: proxima_regular;
+			font-size: 1.2em;
+			color: rgba(82, 150, 203, 1);
+			text-align: center;
+			padding-bottom: 20px;
+			line-height: 28px;
+		}
+	}
+
+	.thumb {
+		height: 500px; 
+		perspective: 800px;
+		max-width: 900px;
+		margin: auto;
+		transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+
+		&:hover{
+
+			padding-bottom: 72px !important;;
+
+			.thumb-background{
+				opacity: 1 !important;
+			}
+
+			.thumb-text{
+				padding-top: 0px !important;
+			}
+		}
+
+		.thumb-background{
+			padding-top: 12px;
+			padding-left: 8px;
+			padding-right: 8px;
+			padding-bottom: 12px;
+			position: absolute;
+			opacity: 0;
+			transition: all 0.5s;
+			-moz-transition: all 0.5s;
+			-webkit-transition: all 0.5s;
+			width: 100%;
+			padding-top: 24px;
+
+			.thumb-text{
+				max-width: 550px;
+				margin: auto;
+				font-family: proxima_light;
+				font-size: 1.2em;
+				color: rgba(33, 35, 38, 0.7);
+				text-align: center;
+				letter-spacing: 0px;
+				padding-top: 80px;
+				transition: all 0.5s;
+				-moz-transition: all 0.5s;
+				-webkit-transition: all 0.5s;
+				line-height: 28px;
+			}
+
+			.thumb-text-btn{
+				color: #fff;
+				text-align: center;
+				font-family: proxima_regular;
+				font-size: 0.8em;
+				letter-spacing: 0px;
+				padding: 8px 12px 8px 12px;
+				max-width: 132px;
+				margin-top: 24px !important;
+				background: #212326;
+				margin: auto;
+				transition: all 0.5s;
+				-moz-transition: all 0.5s;
+				-webkit-transition: all 0.5s;
+				cursor: pointer;
+
+				&:hover{
+					max-width: 148px;
+					background: rgba(33, 35, 38, 0.75);
+				}
+			}
+		}
+	}
+
+	.mobile-brand-row{
+		display: none;
+		margin: auto;
+		max-width: 600px;
+		margin-top: 64px;
+
+		.mobile-brand-image{
+			height: 320px;
+			background-size: cover !important;
+		}
+
+		.mobile-brand-header{
+			margin: auto;
+			font-family: proxima_black;
+			font-size: 3em;
+			text-align: left;
+			color: #212326;
+			letter-spacing: -1px;
+			padding-top: 24px;
+		}
+
+		.mobile-brand-subtitle{
+			margin: auto;
+			font-family: proxima_bold;
+			font-size: 1.4em;
+			color: #212326;
+			text-align: left;
+			padding-bottom: 20px;
+			padding-top: 12px;
+		}
+
+		.mobile-brand-description{
+			font-family: proxima_regular;
+			font-size: 1.2em;
+			text-align: left;
+			color: #212326;
+			margin: auto;
+			letter-spacing: -0.5px
+		}
+
+		.mobile-brand-link{
+			max-width: 140px;
+			color: #212326;
+			margin: auto;
+			text-align: center;
+			height: 40px;
+			font-family: proxima_bold;
+			font-size: 1.2em;
+			margin-top: 24px;
+			padding-top: 8px;
+			background: #fff;
+			border: 2px solid #212326;
+
+			-webkit-transition: .2s ease-in-out;
+			-moz-transition: .2s ease-in-out;
+			-o-transition: .2s ease-in-out;
+
+			&:hover{
+				box-shadow: 0px 0px 0px #000;
+				max-width: 180px;
+				text-decoration: none !important;
+			}
+		}
+	}
+
+	.brand-row{
+		padding-top: 12px;
+		height: 800px;
+		margin: auto !important;
+		z-index: 1008;
+		position: relative;
+	}
+
+	.brand-text-box{
+		background: transparent;
+		padding-top: 32px;
+		max-width: 600px;
+		margin: auto;
+
+		.brand-grid-header{
+			font-family: proxima_black;
+			font-size: 4em;
+			text-align: center;
+			color: #fff;
+			letter-spacing: -1px;
+			max-width: 900px;
+			margin: auto;
+		}
+
+		.brand-grid-subheader{
+			font-family: proxima_light;
+			font-size: 1.2em;
+			color: #fff;
+			text-align: center;
+			padding-bottom: 48px;
+			letter-spacing: -0.5px;
+			max-width: 900px;
+			margin: auto;
+		}
+
+		.brand-grid-description{
+			font-family: proxima_regular;
+			font-size: 1.4em;
+			text-align: left;
+			color: #212326;
+			margin: auto;
+			letter-spacing: -0.5px
+		}
+	}
+
+	.thumb a {
+		display: block; 
+		width: 100%; 
+		height: 100%;
+		/*double layered BG for lighting effect*/
+		background-size: cover !important;
+		/*disabling the translucent black bg on the main image*/
+		background-size: 0, cover;
+		/*3d space for children*/
+		transform-style: preserve-3d;
+		transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		border: none;
+
+		&:hover{
+			background-color: #212326 !important;
+		}
+	}
+
+	.thumb:hover a {transform: rotateX(90deg); transform-origin: bottom;}
+	/*bottom surface */
+	.thumb a:after {
+		/*36px high element positioned at the bottom of the image*/
+		content: ''; 
+		position: absolute; 
+		left: 0; 
+		bottom: 0; 
+		width: 100%; height: 52px;
+		/*inherit the main BG*/
+		background: inherit; 
+		background-size: cover, cover;
+		/*draw the BG bottom up*/
+		background-position: bottom;
+		/*rotate the surface 90deg on the bottom axis*/
+		transform: rotateX(90deg);
+		transform-origin: bottom;
+	}
+	/*label style*/
+	.thumb a span {
+		color: white; 
+		text-transform: lowercase;
+		position: absolute; 
+		top: 100%; 
+		left: 0; 
+		width: 100%;
+		font-family: proxima_thin;
+		letter-spacing: -1px;
+		font-size: 3em;
+		text-align: center;
+		/*the rotation is a bit less than the bottom surface to avoid flickering*/
+		transform: rotateX(-89.99deg);
+		transform-origin: top;
+		z-index: 1;
+	}
+	/*shadow*/
+	.thumb a:before {
+		content: ''; position: absolute; top: 0; left: 0;
+		width: 100%; height: 100%;
+		background: rgba(0, 0, 0, 0.5); 
+		box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+		transition: all 0.5s; 
+		/*by default the shadow will be almost flat, very transparent, scaled down with a large blur*/
+		opacity: 0.15;
+		transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+		transform-origin: bottom;
+	}
+	.thumb:hover a:before {
+		opacity: 1;
+		/*blurred effect using box shadow as filter: blur is not supported in all browsers*/
+		box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+		/*pushing the shadow down and scaling it down to size*/
+		transform: rotateX(0) translateZ(-60px) scale(0.85);
+	}
+
+	.brands-title-text{
+		max-width: 800px;
+		margin: auto;
+		font-family: proxima_regular;
+		font-size: 1.4em;
+		color: #212326;
+		text-align: left;
+		padding-bottom: 72px;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.brands-container{
+		display: none;
+	}
+}
+

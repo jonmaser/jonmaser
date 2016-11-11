@@ -1,0 +1,157 @@
+#mobile_my_brands{
+	display: none;
+
+	.mobile-brands-title-container{
+		padding-top: 144px;
+		padding-bottom: 196px;
+		margin: auto;
+		padding-left: 12px;
+		padding-right: 12px;
+		position: relative;
+		margin-top: -56px;
+		background: #bde8fa;
+
+		.mobile-brands-header{
+			font-family: proxima_bold;
+			font-size: 2.2em;
+			color: #5296cb;
+			text-align: center;
+			letter-spacing: -1px;
+		}
+
+		.mobile-brands-underline{
+			border-bottom: 2px solid #fff;
+			max-width: 80px;
+			margin: auto;
+			padding-top: 6px;
+			margin-bottom: 6px;
+		}
+
+		.mobile-brands-subtitle{
+			max-width: 400px;
+			margin: auto;
+			font-family: proxima_regular;
+			font-size: 1.2em;
+			color: rgba(82, 150, 203, 1);
+			text-align: center;
+			padding-bottom: 20px;
+			line-height: 28px;
+		}
+	}
+
+	.mobile-brand-row{
+		padding-top: 64px;
+		padding-bottom: 72px;
+
+		.mobile-brand-image{
+			height: 320px;
+			background-size: cover !important;
+			max-width: 600px;
+			margin: auto;
+		}
+
+		.mobile-brand-header{
+			margin: auto;
+			max-width: 600px;
+			font-family: proxima_black;
+			font-size: 3em;
+			text-align: left;
+			color: #fff;
+			letter-spacing: -1px;
+			padding-top: 24px;
+		}
+
+		.mobile-brand-subtitle{
+			margin: auto;
+			max-width: 600px;
+			font-family: proxima_bold;
+			font-size: 1.4em;
+			color: rgba(255, 255, 255, 0.8);
+			text-align: left;
+			padding-bottom: 20px;
+			padding-top: 12px;
+		}
+
+		.mobile-brand-description{
+			font-family: proxima_regular;
+			font-size: 1.2em;
+			text-align: left;
+			color: rgba(33, 35, 38, 0.7);
+			max-width: 600px;
+			margin: auto;
+			letter-spacing: -0.5px;
+			line-height: 28px;
+		}
+
+		.mobile-brand-link{
+			max-width: 140px;
+			color: #fff;
+			margin: auto;
+			text-align: center;
+			height: 40px;
+			font-family: proxima_regular;
+			font-size: 1.2em;
+			margin-top: 24px;
+			padding-top: 9px;
+			background: #212326;
+
+			-webkit-transition: .2s ease-in-out;
+			-moz-transition: .2s ease-in-out;
+			-o-transition: .2s ease-in-out;
+
+			&:hover{
+				box-shadow: 0px 0px 0px #000;
+				max-width: 180px;
+				text-decoration: none !important;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 991px){
+	#mobile_my_brands{
+		display: block !important;
+	}
+}
+
+@media screen and (max-width: 500px){
+
+	#mobile_my_brands .mobile-brands-title-container{
+		margin-top: -44px;
+	}
+
+	#mobile_my_brands .mobile-brands-title-container .mobile-brands-header{
+		text-align: left;
+		letter-spacing: -1px;
+	}
+
+	#mobile_my_brands .mobile-brands-title-container .mobile-brands-underline{
+		padding-top: 12px;
+		margin-bottom: 16px !important;
+		margin: initial;
+	}
+
+	#mobile_my_brands .mobile-brands-title-container .mobile-brands-subtitle{
+		text-align: left;
+		max-width: 500px;
+	}
+
+	#mobile_my_brands .mobile-brand-row .mobile-brand-image{
+		height: 260px;
+	}
+
+	#mobile_my_brands .mobile-brand-row .mobile-brand-header{
+		font-size: 2.4em;
+		letter-spacing: 0px;
+	}
+
+	#mobile_my_brands .mobile-brand-row .mobile-brand-subtitle{
+		font-size: 1.2em;
+	}
+
+	#mobile_my_brands .mobile-brand-row .mobile-brand-description{
+		font-size: 1em;
+		letter-spacing: -0.3px;
+		line-height: 24px;
+	}
+}

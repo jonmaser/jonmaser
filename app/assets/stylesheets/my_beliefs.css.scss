@@ -1,0 +1,224 @@
+#my_beliefs{
+	background: #77b3d4;
+	height: 800px;
+	padding: 0px;
+
+
+	.quote-content{
+		max-width: 600px;
+		margin: auto;
+		padding-top: 128px;
+		padding-bottom: 144px;
+
+		.traveler-quote-header{
+			font-family: proxima_bold;
+			font-size: 4em;
+			color: #fff;
+			text-align: center;
+			letter-spacing: -2px;
+		}
+
+		.traveler-quote-text{
+			font-family: proxima_thin;
+			font-size: 1.2em;
+			color: rgba(255,255,255,0.8);
+			text-align: center;
+			line-height: 28px;
+			letter-spacing: -0.5px;
+		}
+
+		.traveler-quote-name{
+			font-family: proxima_bold;
+			font-size: 2em;
+			color: #212326;
+			text-align: center;
+			padding-bottom: 20px;
+			letter-spacing: -1px;
+			font-style: italic;
+		}
+
+		.quote-images{
+			max-width: 400px;
+			margin: auto;
+			display: flex;
+			padding-top: 72px;
+
+			.quote-image-button{
+			    width: 100px;
+			    height: 100px;
+			    float: left;
+			    border-radius: 50%;
+			    cursor: pointer;
+			    margin: auto;
+			    box-shadow: 1px 1px 2px #444;
+			    background-size: contain !important;
+
+				-moz-transition: all 0.3s;
+				-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+
+				&:hover{
+					-moz-transform: scale(1.1);
+					-webkit-transform: scale(1.1);
+					transform: scale(1.1);
+				}
+			}
+		}
+	}
+
+	#partner-signup{
+		background: #212326;
+		height: 800px;
+		padding-top: 240px;
+		background-size: cover;
+		background-attachment: fixed !important;
+		background-size: cover !important;
+
+		.partner-signup-title{
+			font-family: proxima_bold;
+			font-size: 3em;
+			text-align: center;
+			color: #fff;
+			max-width: 700px;
+			margin: auto;
+			letter-spacing: -2px;
+			padding-bottom: 24px;
+		}
+
+		.partner-signup-btn{
+			max-width: 190px;
+			color: #fff;
+			margin: auto;
+			text-align: center;
+			height: 50px;
+			font-family: proxima_bold;
+			font-size: 1.2em;
+			margin-top: 12px;
+			padding-top: 14px;
+			background: rgba(0,0,0,0.6);
+
+			-webkit-transition: .2s ease-in-out;
+			-moz-transition: .2s ease-in-out;
+			-o-transition: .2s ease-in-out;
+
+			&:hover{
+				box-shadow: 0px 0px 0px #000;
+				-moz-transform: scale(1.1);
+				-webkit-transform: scale(1.1);
+				transform: scale(1.1);
+				opacity: 0.6;
+			}
+		}
+	}
+
+	.social-link-container{
+		max-width: 332px;
+		margin: auto;
+		margin-top: -120px;
+
+		.social-link{
+			height: 80px;
+			width: 80px;
+			display: inline-block;
+			background-size: cover !important;
+			border-radius: 50%;
+			border: 2px solid #fff;
+			cursor: pointer;
+
+			-moz-transition: all 0.3s;
+			-webkit-transition: all 0.3s;
+			transition: all 0.3s;
+
+			&:hover{
+				-moz-transform: scale(1.1);
+				-webkit-transform: scale(1.1);
+				transform: scale(1.1);
+				opacity: 0.6;
+			}
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 991px){
+
+	#my_beliefs .quote-content{
+		max-width: 480px;
+	}
+	
+	#my_beliefs .quote-content .traveler-quote-header{
+		font-size: 2.4em;
+	}
+
+	#my_beliefs .quote-content .traveler-quote-name{
+		font-size: 1.6em;
+		padding-top: 12px;
+	}
+
+	#my_beliefs #partner-signup .partner-signup-title{
+		font-size: 2.4em;
+		letter-spacing: -1px;
+		max-width: 600px;
+	}
+}
+
+@media screen and (max-width: 500px){
+
+	#my_beliefs .quote-content{
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 64px;
+		padding-bottom: 72px;
+	}
+
+	#my_beliefs .quote-content .traveler-quote-header{
+		font-size: 1.8em;
+		letter-spacing: 0px;
+		text-align: left;
+		font-family: proxima_black;
+	}
+
+	#my_beliefs .quote-content .traveler-quote-name{
+		font-size: 1.2em;
+		text-align: left;
+	}
+
+	#my_beliefs .quote-content .traveler-quote-text{
+		font-size: 1em;
+		color: #fff;
+		line-height: 24px;
+		letter-spacing: -0.3px;
+		margin: auto;
+		text-align: left;
+		font-family: proxima_regular
+	}
+
+	#my_beliefs .quote-content .quote-images{
+		padding-top: 32px;
+	}
+
+	#my_beliefs .quote-content .quote-images .quote-image-button{
+		height: 72px;
+		width: 72px;
+	}
+
+	#my_beliefs #partner-signup{
+		height: 600px;
+		padding-top: 140px;
+	}
+
+	#my_beliefs #partner-signup .partner-signup-title{
+		font-size: 1.8em;
+	}
+
+	#my_beliefs .social-link-container{
+		max-width: 252px;
+		margin-top: -80px;
+	}
+
+	#my_beliefs .social-link-container .social-link{
+		height: 60px;
+		width: 60px;
+	}
+}

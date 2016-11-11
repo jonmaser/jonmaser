@@ -11,10 +11,6 @@
   z-index: 1001;
   top: 12px;
   left: 40%;
-
-  &:hover{
-    background-color: rgba(255,255,255,0.8);
-  }
 }
 
 .Offscreen {
@@ -25,7 +21,7 @@
   width: 320px;
   transform: translate3d(100%, 0, 0);
   transition: all 600ms ease;
-  z-index: 1001;
+  z-index: 1010;
 }
 .Offscreen.is-Open {
   transform: translate3d(200%, 0, 0);
@@ -43,7 +39,7 @@
   transition: inherit;
 }
 .Button:hover {
-  background: #136b68;
+  background: #5296cb;
 }
 .Menu-Bar {
   display: block;
