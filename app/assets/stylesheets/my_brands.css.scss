@@ -1,4 +1,4 @@
-#brands-container{
+.brands-container{
 	max-width: 100%;
 	margin: auto;
 	background-color: #fff !important;
@@ -310,7 +310,7 @@
 }
 
 @media screen and (max-width: 991px){
-	#brands-container{
+	.brands-container{
 		display: none;
 	}
 }
