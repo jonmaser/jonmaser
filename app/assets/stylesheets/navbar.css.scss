@@ -12,6 +12,7 @@
 	margin-bottom: 0px;
 	border-radius: 0px;
 	background: #fff;
+	display: none !important;
 
 	.navbar-brand {
 		background: asset-url("logos/JMlogowhitesmall.png");
@@ -179,9 +180,6 @@
 }
 
 @media screen and (max-width: 992px){
-	#header{
-		display: none !important;
-	}
 }
 
 @media screen and (max-width: 767px){

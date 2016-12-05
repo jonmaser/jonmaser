@@ -1,4 +1,4 @@
-.brands-container{
+#brands-container{
 	max-width: 100%;
 	margin: auto;
 	background-color: #fff !important;
@@ -183,6 +183,7 @@
 		margin: auto !important;
 		z-index: 1008;
 		position: relative;
+		background: #fff;
 	}
 
 	.brand-text-box{
@@ -195,7 +196,7 @@
 			font-family: proxima_black;
 			font-size: 4em;
 			text-align: center;
-			color: #fff;
+			color: #212326;
 			letter-spacing: -1px;
 			max-width: 900px;
 			margin: auto;
@@ -204,7 +205,7 @@
 		.brand-grid-subheader{
 			font-family: proxima_light;
 			font-size: 1.2em;
-			color: #fff;
+			color: #212326;
 			text-align: center;
 			padding-bottom: 48px;
 			letter-spacing: -0.5px;
@@ -309,7 +310,7 @@
 }
 
 @media screen and (max-width: 991px){
-	.brands-container{
+	#brands-container{
 		display: none;
 	}
 }
