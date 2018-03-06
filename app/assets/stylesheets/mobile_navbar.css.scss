@@ -6,16 +6,16 @@
   height: 60px;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  background-color: #212326;
   position: fixed;
   z-index: 1001;
   top: 12px;
   left: 40%;
+  brightness: brightness(0.1);
 }
 
 .Offscreen {
   height: 100%;
-  background: #212326;
+  background: #575757;
   position: fixed;
   left: -640px;
   width: 320px;
@@ -25,22 +25,19 @@
 }
 .Offscreen.is-Open {
   transform: translate3d(200%, 0, 0);
-  box-shadow: 32px 0px 100px #000;
+  box-shadow: -24px 0px 18px rgba(0,0,0,0.1) inset;
 }
 .Button {
   position: absolute;
   right: -4em;
   top: 0.5em;
-  background: #5296cb;
   width: 3.5em;
   height: 3.5em;
   padding: 0.5em;
   cursor: pointer;
   transition: inherit;
 }
-.Button:hover {
-  background: rgba(0,0,0,0.4);
-}
+
 .Menu-Bar {
   display: block;
   margin-bottom: 0.5em;
@@ -49,10 +46,12 @@
   height: 0.5em;
   position: absolute;
   transition: all 200ms ease;
-  background: #fff;
+  background: rgba(33, 53, 212, 0.70);
   transform-origin: 50% 50%;
-  box-shadow: 1px 1px 2px #212326;
+  border-radius: 24px;
 }
+
+
 .Menu-Bar.Menu-Top {
   top: 0.5em;
 }
@@ -62,9 +61,7 @@
 .Menu-Bar.Menu-Bottom {
   top: 2.5em;
 }
-.Button:hover .Menu-Bar {
-  background: #FFF;
-}
+
 .is-Open .Menu-Bar.Menu-Top {
   transform: rotate(45deg);
   top: 1.5em;
@@ -80,21 +77,23 @@
 }
 .Nav-List {
   font-family: proxima_regular;
-  padding-top: 120px;
+  padding-top: 150px;
   text-align: center;
+  font-size: 16px;
 }
+
 .Nav-List ul,
 .Nav-List li {
   margin: 0;
   padding: 0;
   list-style-type: none;
   font-size: 1.2em;
-  line-height: 64px;
+  line-height: 100px;
 }
 
 .Nav-List li{
-  border-bottom: 1px solid #555;
-  max-width: 80%;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  max-width: 100%;
   margin: auto;
   cursor: pointer;
   -moz-transition: all 0.3s;
@@ -102,22 +101,20 @@
   transition: all 0.3s;
 
   &:hover{
-    background: rgba(255,255,255,0.4);
+    background: rgba(255,255,255,0.2);
     max-width: 100%;
-
-    .Nav-List a:hover {
-      color: rgba(255,255,255,0.8);
-    }
+    border-left: 4px solid #35D4AD;
+    padding-left: 12px;
   }
 }
 
 .Nav-List a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
 }
 .Nav-List a:hover {
   text-decoration: none;
-  color: #212326;
+  color: #ffffff;
   cursor: pointer;
 }
 
