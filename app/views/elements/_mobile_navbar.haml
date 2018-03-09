@@ -6,13 +6,15 @@
     #mobile-nav-brand
   %ul
     %li.about-me-link
-      %a.about-me-link About Me
+      %a.about-me-link About
     %li.brands-link
-      %a.brands-link Brands I've Built
+      %a.brands-link Brands
+    %li.mobile-brands-link
+      %a.mobile-brands-link Brands!
     %li.my-beliefs-link
-      %a.my-beliefs-link What I Believe
+      %a.my-beliefs-link Beliefs
     %li.connect-link
-      %a.connect-link Connect with Me
+      %a.connect-link Connect
 
 :javascript
 
@@ -26,15 +28,21 @@
     )
   })
 
-  $('.my-beliefs-link').click(function(){
+  $('.brands-link').click(function(){
     $('html, body').animate({
-      scrollTop: $("#my_beliefs").offset().top - 0}, 800
+      scrollTop: $("#my_brands").offset().top - 0}, 800
     )
   })
 
-  $('.brands-link').click(function(){
+  $('.mobile-brands-link').click(function(){
     $('html, body').animate({
       scrollTop: $("#mobile_my_brands").offset().top - 0}, 800
+    )
+  })
+
+  $('.my-beliefs-link').click(function(){
+    $('html, body').animate({
+      scrollTop: $("#my_beliefs").offset().top - 0}, 800
     )
   })
 
