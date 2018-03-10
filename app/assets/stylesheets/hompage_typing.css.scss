@@ -12,27 +12,31 @@
 
 
 	#homepage-typing-content {
-		font-family: proxima_black;
-		font-size: 8em;
-		letter-spacing: -3px;
+		font-family: proxima_bold;
+		font-size: 42px;
+		letter-spacing: 0px;
 		left: 0px;
 		top: 0px;
 		z-index: 1000;
 		margin: auto;
 		text-align: center;
-		max-width: 720px;
+		max-width: 700px;
 
 		.homepage-header{
-			font-family: proxima_thin;
-			font-size: 0.5em;
+			font-family: proxima_light;
+			font-size: 42px;
 			letter-spacing: -2px;
 			margin-bottom: -20px;
 			margin-left: 12px;
+			color: rgba(0,0,0,0.5);
 		}
 
 		.typewrite{
 			padding-left: 12px;
 			padding-right: 12px;
+			padding-top: 24px;
+			font-size: 48px;
+			letter-spacing: -2px;
 		}
 	}
 }
@@ -51,16 +55,11 @@
 }
 
 @media screen and (max-width: 500px){
-	#homepage-typing #homepage-typing-content{
-		font-size: 3em !important;
-		letter-spacing: -0.5px !important;
-		max-width: 300px !important;
-		text-align: center;
-	}
 
 	#homepage-typing #homepage-typing-content .homepage-header{
-		letter-spacing: 0px;
+		letter-spacing: -0.5px;
 		margin-bottom: 0px;
+		font-size: 24px;
 	}
 
 	#homepage-typing{
@@ -70,5 +69,8 @@
 
 	#homepage-typing #homepage-typing-content .typewrite{
 		position: initial;
+		font-size: 24px;
+		letter-spacing: -1px;
+		padding-top: 12px;
 	}
 }
