@@ -10,9 +10,7 @@
     %li.brands-link
       %a.brands-link Brands
     %li.mobile-brands-link
-      %a.mobile-brands-link Brands!
-    %li.my-beliefs-link
-      %a.my-beliefs-link Beliefs
+      %a.mobile-brands-link Brands
     %li.connect-link
       %a.connect-link Connect
 
@@ -24,7 +22,7 @@
 
   $('.about-me-link').click(function(){
     $('html, body').animate({
-      scrollTop: $("#short-bio").offset().top - 0}, 800
+      scrollTop: $("#homepage-typing").offset().top - 0}, 800
     )
   })
 
@@ -51,3 +49,6 @@
       scrollTop: $("#partner-signup").offset().top - 0}, 800
     )
   })
+
+/    %li.my-beliefs-link
+/     %a.my-beliefs-link Beliefs

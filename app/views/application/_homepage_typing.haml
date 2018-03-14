@@ -1,5 +1,7 @@
 #homepage-typing
-	#homepage-typing-content
+	.homepage-avatar-section
+		.homepage-avatar{style: "background: url('#{asset_path("background/Jon-Headshot-BW.png")}') center center no-repeat"}
+	.homepage-typing-content
 		.homepage-header
 			My mission is to...
 		.typewrite{"data-period" => "2000", "data-type" => "[ \"Cultivate empathy in others.\", \"Design meaningful experiences.\", \"Facilitate positive impact.\" ]", :href => ""}
@@ -30,7 +32,7 @@
 			this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
 			var that = this;
-			var delta = 180 - Math.random() * 100;
+			var delta = 120 - Math.random() * 100;
 
 			if (this.isDeleting) { delta /= 2; }
 

@@ -28,3 +28,45 @@ src: asset_url("ProximaNovaLight.otf");
 font-family: proxima_thin;
 src: asset_url("ProximaNovaThin.otf");
 }
+
+@font-face
+{
+font-family: opensans_light;
+src: asset_url("OpenSans-Light.ttf");
+}
+
+@font-face
+{
+font-family: opensans_regular;
+src: asset_url("OpenSans-Regular.ttf");
+}
+
+@font-face
+{
+font-family: opensans_bold;
+src: asset_url("OpenSans-Bold.ttf");
+}
+
+@font-face
+{
+font-family: opensans_black;
+src: asset_url("OpenSans-ExtraBold.ttf");
+}
+
+@font-face
+{
+font-family: ptserif_light;
+src: asset_url("ptserif_light.ttf");
+}
+
+@font-face
+{
+font-family: ptserif_regular;
+src: asset_url("ptserif_regular.ttf");
+}
+
+@font-face
+{
+font-family: ptserif_bold;
+src: asset_url("ptserif_bold.ttf");
+}

@@ -4,44 +4,46 @@
 	background-color: #fff !important;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
+	padding-bottom: 80px;
 
 	.brands-title-container{
 		padding-top: 196px;
 		padding-bottom: 196px;
 		margin: auto;
-		padding-left: 12px;
-		padding-right: 12px;
+		padding-left: 10px;
+		padding-right: 10px;
 		position: relative;
 		z-index: 1001;
-		margin-top: -44px;
-		background: #bde8fa;
+		background: #f9fbf3;
 		border-radius: 4px;
-		margin-top: -116px;
 
 		.brands-header{
-			font-family: proxima_bold;
+			font-family: ptserif_bold;
 			font-size: 4em;
-			color: #5296cb;
+			color: #263238;
 			text-align: center;
 			letter-spacing: -3px;
+			max-width: 940px;
+			margin: auto;
 		}
 
 		.brands-subtitle{
-			max-width: 700px;
+			max-width: 940px;
 			margin: auto;
-			font-family: proxima_regular;
-			font-size: 1.2em;
-			color: rgba(82, 150, 203, 1);
+			font-family: opensans_light;
+			font-size: 22px;
+			color: #333E44;
 			text-align: center;
 			padding-bottom: 20px;
-			line-height: 28px;
+			padding-top: 16px;
+			line-height: 36px;
 		}
 	}
 
 	.thumb {
 		height: 500px; 
 		perspective: 800px;
-		max-width: 900px;
+		max-width: 940px;
 		margin: auto;
 		transition: all 0.5s;
 		-moz-transition: all 0.5s;
@@ -71,43 +73,21 @@
 			-moz-transition: all 0.5s;
 			-webkit-transition: all 0.5s;
 			width: 100%;
-			padding-top: 24px;
+			padding-top: 80px;
 
 			.thumb-text{
-				max-width: 550px;
+				max-width: 80%;
 				margin: auto;
-				font-family: proxima_light;
-				font-size: 1.2em;
-				color: rgba(33, 35, 38, 0.7);
+				font-family: opensans_light;
+				font-size: 22px;
+				color: #333E44;
 				text-align: center;
 				letter-spacing: 0px;
 				padding-top: 80px;
 				transition: all 0.5s;
 				-moz-transition: all 0.5s;
 				-webkit-transition: all 0.5s;
-				line-height: 28px;
-			}
-
-			.thumb-text-btn{
-				color: #fff;
-				text-align: center;
-				font-family: proxima_regular;
-				font-size: 0.8em;
-				letter-spacing: 0px;
-				padding: 8px 12px 8px 12px;
-				max-width: 132px;
-				margin-top: 24px !important;
-				background: #212326;
-				margin: auto;
-				transition: all 0.5s;
-				-moz-transition: all 0.5s;
-				-webkit-transition: all 0.5s;
-				cursor: pointer;
-
-				&:hover{
-					max-width: 148px;
-					background: rgba(33, 35, 38, 0.75);
-				}
+				line-height: 36px;
 			}
 		}
 	}
@@ -179,7 +159,7 @@
 
 	.brand-row{
 		padding-top: 12px;
-		height: 800px;
+		height: 820px;
 		margin: auto !important;
 		z-index: 1008;
 		position: relative;
@@ -193,24 +173,35 @@
 		margin: auto;
 
 		.brand-grid-header{
-			font-family: proxima_black;
-			font-size: 4em;
+			font-family: ptserif_bold;
+			font-size: 48px;
 			text-align: center;
-			color: #212326;
+			line-height: 64px;
+			color: #263238;
 			letter-spacing: -1px;
 			max-width: 900px;
 			margin: auto;
 		}
 
+		.brand-header-line{
+			border-bottom: 2px solid #F4D03F;
+			max-width: 200px;
+			margin: auto;
+			border-radius: 24px;
+			margin-top: 6px;
+			margin-bottom: 8px;
+		}
+
 		.brand-grid-subheader{
-			font-family: proxima_light;
-			font-size: 1.2em;
-			color: #212326;
+			font-family: ptserif_light;
+			font-size: 22px;
+			color: #333E44;
 			text-align: center;
 			padding-bottom: 48px;
-			letter-spacing: -0.5px;
 			max-width: 900px;
 			margin: auto;
+			line-height: 36px;
+			font-style: italic;
 		}
 
 		.brand-grid-description{
@@ -263,15 +254,13 @@
 	}
 	/*label style*/
 	.thumb a span {
-		color: white; 
-		text-transform: lowercase;
+		color: rgba(255,255,255,0.8); 
 		position: absolute; 
 		top: 100%; 
 		left: 0; 
 		width: 100%;
-		font-family: proxima_thin;
-		letter-spacing: -1px;
-		font-size: 3em;
+		font-family: ptserif_light;
+		font-size: 36px;
 		text-align: center;
 		/*the rotation is a bit less than the bottom surface to avoid flickering*/
 		transform: rotateX(-89.99deg);
@@ -310,8 +299,49 @@
 }
 
 @media screen and (max-width: 991px){
+
 	.brands-container{
+		padding-bottom: 0px;
+	}
+
+	.brands-container .brands-title-container{
+		padding-top: 140px;
+		padding-bottom: 160px;
+	}
+
+	.brands-container .brand-row{
 		display: none;
+	}
+
+	.brands-container .brands-title-container .brands-header{
+		max-width: 600px;
+		font-size: 32px;
+		line-height: 48px;
+		letter-spacing: 0px;
+	}
+
+	.brands-container .brands-title-container .brands-subtitle{
+		max-width: 600px;
+		font-size: 20px;
+		line-height: 36px;
 	}
 }
 
+@media screen and (max-width: 500px){
+
+	.brands-container .brands-title-container{
+		padding-top: 80px;
+		padding-bottom: 100px;
+	}
+
+	.brands-container .brands-title-container .brands-header{
+		font-size: 24px;
+		line-height: 36px;
+		text-align: left;
+	}
+
+	.brands-container .brands-title-container .brands-subtitle{
+		text-align: left;
+		font-size: 18px;
+	}
+}
